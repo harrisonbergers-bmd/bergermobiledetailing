@@ -1,0 +1,42 @@
+[
+  {
+    "event": "chat_start",
+    "params": [
+      "channel",
+      "page"
+    ]
+  },
+  {
+    "event": "quote_generated",
+    "params": [
+      "service_id",
+      "vehicle_type_id",
+      "zone_id",
+      "total_price_usd"
+    ]
+  },
+  {
+    "event": "booking_link_shared",
+    "params": [
+      "service_id",
+      "vehicle_type_id",
+      "zone_id"
+    ]
+  },
+  {
+    "event": "booking_completed",
+    "params": [
+      "service_id",
+      "vehicle_type_id",
+      "zone_id",
+      "source"
+    ]
+  },
+  {
+    "event": "escalation_triggered",
+    "params": [
+      "topic_id",
+      "channel"
+    ]
+  }
+]

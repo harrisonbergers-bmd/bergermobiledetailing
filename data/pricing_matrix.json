@@ -1,0 +1,842 @@
+{
+  "diamond_interior_detail": {
+    "sedan": {
+      "price_usd": 199.0,
+      "service_minutes": 120,
+      "travel_minutes": 30,
+      "total_minutes": 150
+    },
+    "coupe": {
+      "price_usd": 199.0,
+      "service_minutes": 120,
+      "travel_minutes": 30,
+      "total_minutes": 150
+    },
+    "suv_5seat": {
+      "price_usd": 199.0,
+      "service_minutes": 180,
+      "travel_minutes": 30,
+      "total_minutes": 210
+    },
+    "suv_3row": {
+      "price_usd": 249.0,
+      "service_minutes": 165,
+      "travel_minutes": 30,
+      "total_minutes": 195
+    },
+    "truck": {
+      "price_usd": 249.0,
+      "service_minutes": 210,
+      "travel_minutes": 30,
+      "total_minutes": 240
+    },
+    "large_van": {
+      "price_usd": 299.0,
+      "service_minutes": 90,
+      "travel_minutes": 30,
+      "total_minutes": 120
+    },
+    "_pricing_note": "Final pricing varies based on condition"
+  },
+  "diamond_exterior_detail": {
+    "sedan": {
+      "price_usd": 179.0,
+      "service_minutes": 60,
+      "travel_minutes": 30,
+      "total_minutes": 90
+    },
+    "coupe": {
+      "price_usd": 179.0,
+      "service_minutes": 60,
+      "travel_minutes": 30,
+      "total_minutes": 90
+    },
+    "suv_5seat": {
+      "price_usd": 179.0,
+      "service_minutes": 120,
+      "travel_minutes": 30,
+      "total_minutes": 150
+    },
+    "suv_3row": {
+      "price_usd": 199.0,
+      "service_minutes": 75,
+      "travel_minutes": 30,
+      "total_minutes": 105
+    },
+    "truck": {
+      "price_usd": 199.0,
+      "service_minutes": 180,
+      "travel_minutes": 30,
+      "total_minutes": 210
+    },
+    "large_van": {
+      "price_usd": 299.0,
+      "service_minutes": 90,
+      "travel_minutes": 30,
+      "total_minutes": 120
+    },
+    "_pricing_note": "Final pricing varies based on condition"
+  },
+  "vip_full_detail": {
+    "sedan": {
+      "price_usd": 299.0,
+      "service_minutes": 195,
+      "travel_minutes": 30,
+      "total_minutes": 225
+    },
+    "coupe": {
+      "price_usd": 299.0,
+      "service_minutes": 180,
+      "travel_minutes": 30,
+      "total_minutes": 210
+    },
+    "suv_5seat": {
+      "price_usd": 299.0,
+      "service_minutes": 210,
+      "travel_minutes": 30,
+      "total_minutes": 240
+    },
+    "suv_3row": {
+      "price_usd": 399.0,
+      "service_minutes": 240,
+      "travel_minutes": 30,
+      "total_minutes": 270
+    },
+    "truck": {
+      "price_usd": 399.0,
+      "service_minutes": 210,
+      "travel_minutes": 30,
+      "total_minutes": 240
+    },
+    "large_van": {
+      "price_usd": 499.0,
+      "service_minutes": 300,
+      "travel_minutes": 30,
+      "total_minutes": 330
+    },
+    "_pricing_note": "Final pricing varies based on condition"
+  },
+  "presidential_full_detail": {
+    "sedan": {
+      "price_usd": 649.0,
+      "service_minutes": 330,
+      "travel_minutes": 30,
+      "total_minutes": 360
+    },
+    "coupe": {
+      "price_usd": 649.0,
+      "service_minutes": 330,
+      "travel_minutes": 30,
+      "total_minutes": 360
+    },
+    "suv_5seat": {
+      "price_usd": 649.0,
+      "service_minutes": 330,
+      "travel_minutes": 30,
+      "total_minutes": 360
+    },
+    "suv_3row": {
+      "price_usd": 749.0,
+      "service_minutes": 375,
+      "travel_minutes": 30,
+      "total_minutes": 405
+    },
+    "truck": {
+      "price_usd": 749.0,
+      "service_minutes": 330,
+      "travel_minutes": 30,
+      "total_minutes": 360
+    },
+    "large_van": {
+      "price_usd": 999.0,
+      "service_minutes": 90,
+      "travel_minutes": 30,
+      "total_minutes": 120
+    },
+    "_pricing_note": "Final pricing varies based on condition"
+  },
+  "engine_detail": {
+    "sedan": {
+      "price_usd": 149.0,
+      "service_minutes": 60,
+      "travel_minutes": 30,
+      "total_minutes": 90
+    },
+    "coupe": {
+      "price_usd": 149.0,
+      "service_minutes": 60,
+      "travel_minutes": 30,
+      "total_minutes": 90
+    },
+    "suv_5seat": {
+      "price_usd": 149.0,
+      "service_minutes": 75,
+      "travel_minutes": 30,
+      "total_minutes": 105
+    },
+    "suv_3row": {
+      "price_usd": 149.0,
+      "service_minutes": 75,
+      "travel_minutes": 30,
+      "total_minutes": 105
+    },
+    "truck": {
+      "price_usd": 149.0,
+      "service_minutes": 75,
+      "travel_minutes": 30,
+      "total_minutes": 105
+    },
+    "large_van": {
+      "price_usd": 149.0,
+      "service_minutes": 90,
+      "travel_minutes": 30,
+      "total_minutes": 120
+    },
+    "_pricing_note": "Final pricing varies based on condition"
+  },
+  "ozone_odor_removal": {
+    "sedan": {
+      "price_usd": 99.0,
+      "service_minutes": 90,
+      "travel_minutes": 30,
+      "total_minutes": 120
+    },
+    "coupe": {
+      "price_usd": 99.0,
+      "service_minutes": 90,
+      "travel_minutes": 30,
+      "total_minutes": 120
+    },
+    "suv_5seat": {
+      "price_usd": 99.0,
+      "service_minutes": 90,
+      "travel_minutes": 30,
+      "total_minutes": 120
+    },
+    "suv_3row": {
+      "price_usd": 99.0,
+      "service_minutes": 60,
+      "travel_minutes": 30,
+      "total_minutes": 90
+    },
+    "truck": {
+      "price_usd": 99.0,
+      "service_minutes": 90,
+      "travel_minutes": 30,
+      "total_minutes": 120
+    },
+    "large_van": {
+      "price_usd": 99.0,
+      "service_minutes": 90,
+      "travel_minutes": 30,
+      "total_minutes": 120
+    },
+    "_pricing_note": "Final pricing varies based on condition"
+  },
+  "ceramic_1y": {
+    "sedan": {
+      "price_usd": 399.0,
+      "service_minutes": 135,
+      "travel_minutes": 30,
+      "total_minutes": 165
+    },
+    "coupe": {
+      "price_usd": 399.0,
+      "service_minutes": 135,
+      "travel_minutes": 30,
+      "total_minutes": 165
+    },
+    "suv_5seat": {
+      "price_usd": 399.0,
+      "service_minutes": 135,
+      "travel_minutes": 30,
+      "total_minutes": 165
+    },
+    "suv_3row": {
+      "price_usd": 499.0,
+      "service_minutes": 165,
+      "travel_minutes": 30,
+      "total_minutes": 195
+    },
+    "truck": {
+      "price_usd": 499.0,
+      "service_minutes": 165,
+      "travel_minutes": 30,
+      "total_minutes": 195
+    },
+    "large_van": {
+      "price_usd": 599.0,
+      "service_minutes": 240,
+      "travel_minutes": 30,
+      "total_minutes": 270
+    },
+    "_pricing_note": "Final pricing varies based on condition"
+  },
+  "ceramic_4y": {
+    "sedan": {
+      "price_usd": 1199.0,
+      "service_minutes": 300,
+      "travel_minutes": 30,
+      "total_minutes": 330
+    },
+    "coupe": {
+      "price_usd": 1199.0,
+      "service_minutes": 300,
+      "travel_minutes": 30,
+      "total_minutes": 330
+    },
+    "suv_5seat": {
+      "price_usd": 1199.0,
+      "service_minutes": 300,
+      "travel_minutes": 30,
+      "total_minutes": 330
+    },
+    "suv_3row": {
+      "price_usd": 1499.0,
+      "service_minutes": 360,
+      "travel_minutes": 30,
+      "total_minutes": 390
+    },
+    "truck": {
+      "price_usd": 1499.0,
+      "service_minutes": 360,
+      "travel_minutes": 30,
+      "total_minutes": 390
+    },
+    "large_van": {
+      "price_usd": 1749.0,
+      "service_minutes": 435,
+      "travel_minutes": 30,
+      "total_minutes": 465
+    },
+    "_pricing_note": "Final pricing varies based on condition"
+  },
+  "ceramic_7y": {
+    "sedan": {
+      "price_usd": 1799.0,
+      "service_minutes": 420,
+      "travel_minutes": 30,
+      "total_minutes": 450
+    },
+    "coupe": {
+      "price_usd": 1799.0,
+      "service_minutes": 420,
+      "travel_minutes": 30,
+      "total_minutes": 450
+    },
+    "suv_5seat": {
+      "price_usd": 1799.0,
+      "service_minutes": 420,
+      "travel_minutes": 30,
+      "total_minutes": 450
+    },
+    "suv_3row": {
+      "price_usd": 1999.0,
+      "service_minutes": 495,
+      "travel_minutes": 30,
+      "total_minutes": 525
+    },
+    "truck": {
+      "price_usd": 1999.0,
+      "service_minutes": 495,
+      "travel_minutes": 30,
+      "total_minutes": 525
+    },
+    "large_van": {
+      "price_usd": 2299.0,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Final pricing varies based on condition"
+  },
+  "ceramic_lifetime": {
+    "sedan": {
+      "price_usd": 2299.0,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "coupe": {
+      "price_usd": 2299.0,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "suv_5seat": {
+      "price_usd": 2299.0,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "suv_3row": {
+      "price_usd": 2499.0,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "truck": {
+      "price_usd": 2499.0,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "large_van": {
+      "price_usd": 2999.0,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Final pricing varies based on condition"
+  },
+  "paint_correction_stage1": {
+    "sedan": {
+      "price_usd": 499.0,
+      "service_minutes": 210,
+      "travel_minutes": 30,
+      "total_minutes": 240
+    },
+    "coupe": {
+      "price_usd": 499.0,
+      "service_minutes": 210,
+      "travel_minutes": 30,
+      "total_minutes": 240
+    },
+    "suv_5seat": {
+      "price_usd": 499.0,
+      "service_minutes": 210,
+      "travel_minutes": 30,
+      "total_minutes": 240
+    },
+    "suv_3row": {
+      "price_usd": 699.0,
+      "service_minutes": 270,
+      "travel_minutes": 30,
+      "total_minutes": 300
+    },
+    "truck": {
+      "price_usd": 699.0,
+      "service_minutes": 270,
+      "travel_minutes": 30,
+      "total_minutes": 300
+    },
+    "large_van": {
+      "price_usd": 999.0,
+      "service_minutes": 360,
+      "travel_minutes": 30,
+      "total_minutes": 390
+    },
+    "_pricing_note": "Final pricing varies based on condition"
+  },
+  "paint_correction_stage2": {
+    "sedan": {
+      "price_usd": 999.0,
+      "service_minutes": 390,
+      "travel_minutes": 30,
+      "total_minutes": 420
+    },
+    "coupe": {
+      "price_usd": 999.0,
+      "service_minutes": 390,
+      "travel_minutes": 30,
+      "total_minutes": 420
+    },
+    "suv_5seat": {
+      "price_usd": 999.0,
+      "service_minutes": 390,
+      "travel_minutes": 30,
+      "total_minutes": 420
+    },
+    "suv_3row": {
+      "price_usd": 999.0,
+      "service_minutes": 450,
+      "travel_minutes": 30,
+      "total_minutes": 480
+    },
+    "truck": {
+      "price_usd": 1399.0,
+      "service_minutes": 450,
+      "travel_minutes": 30,
+      "total_minutes": 480
+    },
+    "large_van": {
+      "price_usd": 1999.0,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Final pricing varies based on condition"
+  },
+  "paint_correction_stage3": {
+    "sedan": {
+      "price_usd": 1499.0,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "coupe": {
+      "price_usd": 1499.0,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "suv_5seat": {
+      "price_usd": 1499.0,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "suv_3row": {
+      "price_usd": 1999.0,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "truck": {
+      "price_usd": 1999.0,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "large_van": {
+      "price_usd": 2999.0,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Final pricing varies based on condition"
+  },
+  "car_mold_remediation": {
+    "all_cars": {
+      "price_usd": null,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Final pricing varies based on condition"
+  },
+  "rv_mold_remediation": {
+    "rv": {
+      "price_usd": null,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Final pricing varies based on condition"
+  },
+  "boat_mold_remediation": {
+    "boat": {
+      "price_usd": null,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Final pricing varies based on condition"
+  },
+  "aircraft_mold_remediation": {
+    "aircraft": {
+      "price_usd": null,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Final pricing varies based on condition"
+  },
+  "vomit_removal": {
+    "all": {
+      "price_usd": 199.0,
+      "service_minutes": 90,
+      "travel_minutes": 30,
+      "total_minutes": 120
+    },
+    "_pricing_note": "Final pricing varies based on condition"
+  },
+  "motorcycle_golden_detail": {
+    "motorcycle": {
+      "price_usd": 199.0,
+      "service_minutes": 75,
+      "travel_minutes": 30,
+      "total_minutes": 105
+    },
+    "_pricing_note": "Final pricing varies based on condition"
+  },
+  "motorcycle_presidential_detail": {
+    "motorcycle": {
+      "price_usd": 399.0,
+      "service_minutes": 150,
+      "travel_minutes": 30,
+      "total_minutes": 180
+    },
+    "_pricing_note": "Final pricing varies based on condition"
+  },
+  "motorcycle_ceramic_4y": {
+    "motorcycle": {
+      "price_usd": 999.0,
+      "service_minutes": 300,
+      "travel_minutes": 30,
+      "total_minutes": 330
+    },
+    "_pricing_note": "Final pricing varies based on condition"
+  },
+  "motorcycle_ceramic_7y": {
+    "motorcycle": {
+      "price_usd": 1249.0,
+      "service_minutes": 420,
+      "travel_minutes": 30,
+      "total_minutes": 450
+    },
+    "_pricing_note": "Final pricing varies based on condition"
+  },
+  "motorcycle_ceramic_lifetime": {
+    "motorcycle": {
+      "price_usd": 1499.0,
+      "service_minutes": 510,
+      "travel_minutes": 30,
+      "total_minutes": 540
+    },
+    "_pricing_note": "Final pricing varies based on condition"
+  },
+  "boat_exterior_detail": {
+    "boat": {
+      "price_usd": null,
+      "service_minutes": 270,
+      "travel_minutes": 30,
+      "total_minutes": 300
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "boat_interior_detail": {
+    "boat": {
+      "price_usd": null,
+      "service_minutes": 270,
+      "travel_minutes": 30,
+      "total_minutes": 300
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "boat_full_detail": {
+    "boat": {
+      "price_usd": null,
+      "service_minutes": 540,
+      "travel_minutes": 30,
+      "total_minutes": 570
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "boat_paint_correction_stage1": {
+    "boat": {
+      "price_usd": null,
+      "service_minutes": 480,
+      "travel_minutes": 30,
+      "total_minutes": 510
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "boat_paint_correction_stage2": {
+    "boat": {
+      "price_usd": null,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "boat_paint_correction_stage3": {
+    "boat": {
+      "price_usd": null,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "boat_ceramic_4y": {
+    "boat": {
+      "price_usd": null,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "boat_ceramic_7y": {
+    "boat": {
+      "price_usd": null,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "boat_ceramic_lifetime": {
+    "boat": {
+      "price_usd": null,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "rv_exterior_detail": {
+    "rv": {
+      "price_usd": null,
+      "service_minutes": 240,
+      "travel_minutes": 30,
+      "total_minutes": 270
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "rv_interior_detail": {
+    "rv": {
+      "price_usd": null,
+      "service_minutes": 270,
+      "travel_minutes": 30,
+      "total_minutes": 300
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "rv_full_detail": {
+    "rv": {
+      "price_usd": null,
+      "service_minutes": 480,
+      "travel_minutes": 30,
+      "total_minutes": 510
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "rv_paint_correction_stage1": {
+    "rv": {
+      "price_usd": null,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "rv_paint_correction_stage2": {
+    "rv": {
+      "price_usd": null,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "rv_paint_correction_stage3": {
+    "rv": {
+      "price_usd": null,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "rv_ceramic_4y": {
+    "rv": {
+      "price_usd": null,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "rv_ceramic_7y": {
+    "rv": {
+      "price_usd": null,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "rv_ceramic_lifetime": {
+    "rv": {
+      "price_usd": null,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "aircraft_exterior_detail": {
+    "aircraft": {
+      "price_usd": null,
+      "service_minutes": 240,
+      "travel_minutes": 30,
+      "total_minutes": 270
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "aircraft_interior_detail": {
+    "aircraft": {
+      "price_usd": null,
+      "service_minutes": 180,
+      "travel_minutes": 30,
+      "total_minutes": 210
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "aircraft_full_detail": {
+    "aircraft": {
+      "price_usd": null,
+      "service_minutes": 480,
+      "travel_minutes": 30,
+      "total_minutes": 510
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "aircraft_paint_correction_stage1": {
+    "aircraft": {
+      "price_usd": null,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "aircraft_paint_correction_stage2": {
+    "aircraft": {
+      "price_usd": null,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "aircraft_paint_correction_stage3": {
+    "aircraft": {
+      "price_usd": null,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "aircraft_ceramic_4y": {
+    "aircraft": {
+      "price_usd": null,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "aircraft_ceramic_7y": {
+    "aircraft": {
+      "price_usd": null,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  },
+  "aircraft_ceramic_lifetime": {
+    "aircraft": {
+      "price_usd": null,
+      "service_minutes": 570,
+      "travel_minutes": 30,
+      "total_minutes": 600
+    },
+    "_pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+  }
+}

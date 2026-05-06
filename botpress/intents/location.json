@@ -1,0 +1,16 @@
+{
+  "intent": "location",
+  "utterances": [
+    "Do you service Arlington",
+    "Do you come to Bethesda",
+    "Are you in the DMV area",
+    "Do you go to Leesburg",
+    "Do you service 22315",
+    "Do you service 20001",
+    "Do you service 22401",
+    "Do you service 21054",
+    "Are you in Northern Virginia",
+    "Do you service DC",
+    "Do you service Maryland"
+  ]
+}

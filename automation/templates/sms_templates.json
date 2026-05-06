@@ -1,0 +1,7 @@
+{
+  "booking_confirmation": "✅ You're booked with Berger Mobile Detailing. Date/time: {{datetime}}. Service: {{service_name}}. Location: {{address}}. Reply HELP for changes.",
+  "reminder_24h": "⏰ Reminder: Your Berger Mobile Detailing appointment is tomorrow at {{datetime}}. Reply 1 to confirm, 2 to reschedule.",
+  "reminder_2h": "🚗 On our way soon! Your appointment is at {{datetime}}. Please ensure vehicle access.",
+  "review_request": "Thanks for choosing Berger Mobile Detailing! If we earned 5 stars, would you leave a quick review? {{review_link}}",
+  "winback": "Hi {{first_name}} — want to get your vehicle refreshed again? Reply BOOK for a quick link to schedule."
+}

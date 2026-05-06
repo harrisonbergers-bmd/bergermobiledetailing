@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  bmd-ops:
+    image: node:20-alpine
+    working_dir: /app
+    volumes:
+      - ./:/app
+    command: ["node","-e","console.log('Install dependencies and run your server here')"]

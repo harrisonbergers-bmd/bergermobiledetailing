@@ -1,0 +1,509 @@
+{
+  "entity": "services",
+  "values": [
+    {
+      "id": "diamond_interior_detail",
+      "name": "Diamond Interior Detail",
+      "synonyms": [
+        "diamond inside detail",
+        "diamond interior detail",
+        "diamond interior detailing"
+      ]
+    },
+    {
+      "id": "diamond_exterior_detail",
+      "name": "Diamond Exterior Detail",
+      "synonyms": [
+        "diamond exterior detail",
+        "diamond exterior detailing",
+        "diamond outside detail"
+      ]
+    },
+    {
+      "id": "vip_full_detail",
+      "name": "VIP Full Detail",
+      "synonyms": [
+        "full detail",
+        "vip",
+        "vip detail",
+        "vip full",
+        "vip full detail",
+        "vip full detailing"
+      ]
+    },
+    {
+      "id": "presidential_full_detail",
+      "name": "Presidential Full Detail",
+      "synonyms": [
+        "presidential",
+        "presidential detail",
+        "presidential full",
+        "presidential full detail",
+        "presidential full detailing"
+      ]
+    },
+    {
+      "id": "engine_detail",
+      "name": "Engine Detail",
+      "synonyms": [
+        "engine detail",
+        "engine detailing"
+      ]
+    },
+    {
+      "id": "ozone_odor_removal",
+      "name": "Ozone Odor Removal Treatment",
+      "synonyms": [
+        "odor",
+        "odor removal",
+        "ozone",
+        "ozone odor removal treatment",
+        "smell",
+        "smell removal"
+      ]
+    },
+    {
+      "id": "ceramic_1y",
+      "name": "1Y Ceramic Coating",
+      "synonyms": [
+        "1y ceramic coating",
+        "ceramic",
+        "ceramic coating",
+        "coat",
+        "coating"
+      ]
+    },
+    {
+      "id": "ceramic_4y",
+      "name": "4Y Ceramic Coating",
+      "synonyms": [
+        "4y ceramic coating",
+        "ceramic",
+        "ceramic coating",
+        "coat",
+        "coating"
+      ]
+    },
+    {
+      "id": "ceramic_7y",
+      "name": "7Y Ceramic Coating",
+      "synonyms": [
+        "7y ceramic coating",
+        "ceramic",
+        "ceramic coating",
+        "coat",
+        "coating"
+      ]
+    },
+    {
+      "id": "ceramic_lifetime",
+      "name": "Lifetime Ceramic Coating",
+      "synonyms": [
+        "ceramic",
+        "ceramic coating",
+        "coat",
+        "coating",
+        "lifetime ceramic coating"
+      ]
+    },
+    {
+      "id": "paint_correction_stage1",
+      "name": "Stage 1 Paint Correction",
+      "synonyms": [
+        "correction",
+        "paint correction",
+        "polish",
+        "stage 1 paint correction",
+        "swirl removal"
+      ]
+    },
+    {
+      "id": "paint_correction_stage2",
+      "name": "Stage 2 Paint Correction",
+      "synonyms": [
+        "correction",
+        "paint correction",
+        "polish",
+        "stage 2 paint correction",
+        "swirl removal"
+      ]
+    },
+    {
+      "id": "paint_correction_stage3",
+      "name": "Stage 3 Paint Correction",
+      "synonyms": [
+        "correction",
+        "paint correction",
+        "polish",
+        "stage 3 paint correction",
+        "swirl removal"
+      ]
+    },
+    {
+      "id": "car_mold_remediation",
+      "name": "Car Mold Remediation",
+      "synonyms": [
+        "car mold remediation"
+      ]
+    },
+    {
+      "id": "rv_mold_remediation",
+      "name": "RV Mold Remediation",
+      "synonyms": [
+        "rv mold remediation"
+      ]
+    },
+    {
+      "id": "boat_mold_remediation",
+      "name": "Boat Mold Remediation",
+      "synonyms": [
+        "boat mold remediation"
+      ]
+    },
+    {
+      "id": "aircraft_mold_remediation",
+      "name": "Aircraft Mold Remediation",
+      "synonyms": [
+        "aircraft mold remediation"
+      ]
+    },
+    {
+      "id": "vomit_removal",
+      "name": "Vomit Removal",
+      "synonyms": [
+        "puke",
+        "throw up",
+        "throwup",
+        "vomit",
+        "vomit removal"
+      ]
+    },
+    {
+      "id": "motorcycle_golden_detail",
+      "name": "Golden Detail",
+      "synonyms": [
+        "golden detail",
+        "golden detailing"
+      ]
+    },
+    {
+      "id": "motorcycle_presidential_detail",
+      "name": "Presidential Detail",
+      "synonyms": [
+        "presidential",
+        "presidential detail",
+        "presidential detailing",
+        "presidential full"
+      ]
+    },
+    {
+      "id": "motorcycle_ceramic_4y",
+      "name": "4Y Ceramic Coating",
+      "synonyms": [
+        "4y ceramic coating",
+        "ceramic",
+        "ceramic coating",
+        "coat",
+        "coating"
+      ]
+    },
+    {
+      "id": "motorcycle_ceramic_7y",
+      "name": "7Y Ceramic Coating",
+      "synonyms": [
+        "7y ceramic coating",
+        "ceramic",
+        "ceramic coating",
+        "coat",
+        "coating"
+      ]
+    },
+    {
+      "id": "motorcycle_ceramic_lifetime",
+      "name": "Lifetime Ceramic Coating",
+      "synonyms": [
+        "ceramic",
+        "ceramic coating",
+        "coat",
+        "coating",
+        "lifetime ceramic coating"
+      ]
+    },
+    {
+      "id": "boat_exterior_detail",
+      "name": "Exterior Detail",
+      "synonyms": [
+        "exterior detail",
+        "exterior detailing",
+        "outside detail"
+      ]
+    },
+    {
+      "id": "boat_interior_detail",
+      "name": "Interior Detail",
+      "synonyms": [
+        "inside detail",
+        "interior detail",
+        "interior detailing"
+      ]
+    },
+    {
+      "id": "boat_full_detail",
+      "name": "Full Detail",
+      "synonyms": [
+        "full detail",
+        "full detailing"
+      ]
+    },
+    {
+      "id": "boat_paint_correction_stage1",
+      "name": "Stage 1 Paint Correction",
+      "synonyms": [
+        "correction",
+        "paint correction",
+        "polish",
+        "stage 1 paint correction",
+        "swirl removal"
+      ]
+    },
+    {
+      "id": "boat_paint_correction_stage2",
+      "name": "Stage 2 Paint Correction",
+      "synonyms": [
+        "correction",
+        "paint correction",
+        "polish",
+        "stage 2 paint correction",
+        "swirl removal"
+      ]
+    },
+    {
+      "id": "boat_paint_correction_stage3",
+      "name": "Stage 3 Paint Correction",
+      "synonyms": [
+        "correction",
+        "paint correction",
+        "polish",
+        "stage 3 paint correction",
+        "swirl removal"
+      ]
+    },
+    {
+      "id": "boat_ceramic_4y",
+      "name": "4Y Ceramic Coating",
+      "synonyms": [
+        "4y ceramic coating",
+        "ceramic",
+        "ceramic coating",
+        "coat",
+        "coating"
+      ]
+    },
+    {
+      "id": "boat_ceramic_7y",
+      "name": "7Y Ceramic Coating",
+      "synonyms": [
+        "7y ceramic coating",
+        "ceramic",
+        "ceramic coating",
+        "coat",
+        "coating"
+      ]
+    },
+    {
+      "id": "boat_ceramic_lifetime",
+      "name": "Lifetime Ceramic Coating",
+      "synonyms": [
+        "ceramic",
+        "ceramic coating",
+        "coat",
+        "coating",
+        "lifetime ceramic coating"
+      ]
+    },
+    {
+      "id": "rv_exterior_detail",
+      "name": "Exterior Detail",
+      "synonyms": [
+        "exterior detail",
+        "exterior detailing",
+        "outside detail"
+      ]
+    },
+    {
+      "id": "rv_interior_detail",
+      "name": "Interior Detail",
+      "synonyms": [
+        "inside detail",
+        "interior detail",
+        "interior detailing"
+      ]
+    },
+    {
+      "id": "rv_full_detail",
+      "name": "Full Detail",
+      "synonyms": [
+        "full detail",
+        "full detailing"
+      ]
+    },
+    {
+      "id": "rv_paint_correction_stage1",
+      "name": "Stage 1 Paint Correction",
+      "synonyms": [
+        "correction",
+        "paint correction",
+        "polish",
+        "stage 1 paint correction",
+        "swirl removal"
+      ]
+    },
+    {
+      "id": "rv_paint_correction_stage2",
+      "name": "Stage 2 Paint Correction",
+      "synonyms": [
+        "correction",
+        "paint correction",
+        "polish",
+        "stage 2 paint correction",
+        "swirl removal"
+      ]
+    },
+    {
+      "id": "rv_paint_correction_stage3",
+      "name": "Stage 3 Paint Correction",
+      "synonyms": [
+        "correction",
+        "paint correction",
+        "polish",
+        "stage 3 paint correction",
+        "swirl removal"
+      ]
+    },
+    {
+      "id": "rv_ceramic_4y",
+      "name": "4Y Ceramic Coating",
+      "synonyms": [
+        "4y ceramic coating",
+        "ceramic",
+        "ceramic coating",
+        "coat",
+        "coating"
+      ]
+    },
+    {
+      "id": "rv_ceramic_7y",
+      "name": "7Y Ceramic Coating",
+      "synonyms": [
+        "7y ceramic coating",
+        "ceramic",
+        "ceramic coating",
+        "coat",
+        "coating"
+      ]
+    },
+    {
+      "id": "rv_ceramic_lifetime",
+      "name": "Lifetime Ceramic Coating",
+      "synonyms": [
+        "ceramic",
+        "ceramic coating",
+        "coat",
+        "coating",
+        "lifetime ceramic coating"
+      ]
+    },
+    {
+      "id": "aircraft_exterior_detail",
+      "name": "Exterior Detail",
+      "synonyms": [
+        "exterior detail",
+        "exterior detailing",
+        "outside detail"
+      ]
+    },
+    {
+      "id": "aircraft_interior_detail",
+      "name": "Interior Detail",
+      "synonyms": [
+        "inside detail",
+        "interior detail",
+        "interior detailing"
+      ]
+    },
+    {
+      "id": "aircraft_full_detail",
+      "name": "Full Detail",
+      "synonyms": [
+        "full detail",
+        "full detailing"
+      ]
+    },
+    {
+      "id": "aircraft_paint_correction_stage1",
+      "name": "Stage 1 Paint Correction",
+      "synonyms": [
+        "correction",
+        "paint correction",
+        "polish",
+        "stage 1 paint correction",
+        "swirl removal"
+      ]
+    },
+    {
+      "id": "aircraft_paint_correction_stage2",
+      "name": "Stage 2 Paint Correction",
+      "synonyms": [
+        "correction",
+        "paint correction",
+        "polish",
+        "stage 2 paint correction",
+        "swirl removal"
+      ]
+    },
+    {
+      "id": "aircraft_paint_correction_stage3",
+      "name": "Stage 3 Paint Correction",
+      "synonyms": [
+        "correction",
+        "paint correction",
+        "polish",
+        "stage 3 paint correction",
+        "swirl removal"
+      ]
+    },
+    {
+      "id": "aircraft_ceramic_4y",
+      "name": "4Y Ceramic Coating",
+      "synonyms": [
+        "4y ceramic coating",
+        "ceramic",
+        "ceramic coating",
+        "coat",
+        "coating"
+      ]
+    },
+    {
+      "id": "aircraft_ceramic_7y",
+      "name": "7Y Ceramic Coating",
+      "synonyms": [
+        "7y ceramic coating",
+        "ceramic",
+        "ceramic coating",
+        "coat",
+        "coating"
+      ]
+    },
+    {
+      "id": "aircraft_ceramic_lifetime",
+      "name": "Lifetime Ceramic Coating",
+      "synonyms": [
+        "ceramic",
+        "ceramic coating",
+        "coat",
+        "coating",
+        "lifetime ceramic coating"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "location_zone_id": "blue",
+    "zone_name": "Blue Zone",
+    "travel_fee_usd": 0,
+    "cities": [
+      "DC",
+      "Arlington",
+      "Alexandria",
+      "McLean",
+      "Fairfax",
+      "Springfield",
+      "Woodbridge",
+      "Manassas",
+      "Centreville",
+      "Chantilly",
+      "Reston",
+      "Great Falls",
+      "Bethesda",
+      "Rockville",
+      "College Park",
+      "Bowie",
+      "Waldorf"
+    ],
+    "zip_ranges": [
+      "20001-20037",
+      "22003-22315",
+      "20601-20912"
+    ]
+  },
+  {
+    "location_zone_id": "green",
+    "zone_name": "Green Zone",
+    "travel_fee_usd": 50,
+    "cities": [
+      "Germantown",
+      "Gaithersburg",
+      "Olney",
+      "Laurel",
+      "Odenton",
+      "Crofton",
+      "Leonardtown",
+      "Lexington Park"
+    ],
+    "zip_ranges": [
+      "20606-20693",
+      "20701-20882",
+      "21054-21409"
+    ]
+  },
+  {
+    "location_zone_id": "red",
+    "zone_name": "Red Zone",
+    "travel_fee_usd": 50,
+    "cities": [
+      "Leesburg",
+      "Ashburn",
+      "Gainesville",
+      "Haymarket",
+      "Stafford",
+      "Fredericksburg"
+    ],
+    "zip_ranges": [
+      "20105-20197",
+      "22401-22556"
+    ]
+  }
+]

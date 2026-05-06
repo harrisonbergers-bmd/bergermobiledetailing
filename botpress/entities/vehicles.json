@@ -1,0 +1,91 @@
+{
+  "entity": "vehicles",
+  "values": [
+    {
+      "id": "sedan",
+      "name": "Sedan",
+      "synonyms": [
+        "4 door",
+        "car",
+        "sedan"
+      ]
+    },
+    {
+      "id": "coupe",
+      "name": "Coupe",
+      "synonyms": [
+        "2 door",
+        "coupe"
+      ]
+    },
+    {
+      "id": "suv_5seat",
+      "name": "SUV 5-Seat",
+      "synonyms": [
+        "5 seat suv",
+        "crossover",
+        "suv",
+        "suv 5-seat"
+      ]
+    },
+    {
+      "id": "suv_3row",
+      "name": "3-Row SUVs & Minivans",
+      "synonyms": [
+        "3 row",
+        "3 row suv",
+        "3-row",
+        "3-row suvs & minivans",
+        "minivan",
+        "third row"
+      ]
+    },
+    {
+      "id": "truck",
+      "name": "Truck",
+      "synonyms": [
+        "pickup",
+        "pickup truck",
+        "truck"
+      ]
+    },
+    {
+      "id": "large_van",
+      "name": "Large Vans",
+      "synonyms": [
+        "cargo van",
+        "large van",
+        "large vans",
+        "van"
+      ]
+    },
+    {
+      "id": "motorcycle",
+      "name": "Motorcycles",
+      "synonyms": [
+        "motorcycles"
+      ]
+    },
+    {
+      "id": "boat",
+      "name": "Boat",
+      "synonyms": [
+        "boat"
+      ]
+    },
+    {
+      "id": "rv",
+      "name": "RV",
+      "synonyms": [
+        "rv"
+      ]
+    },
+    {
+      "id": "aircraft",
+      "name": "Aircraft",
+      "synonyms": [
+        "aircraft"
+      ]
+    }
+  ]
+}

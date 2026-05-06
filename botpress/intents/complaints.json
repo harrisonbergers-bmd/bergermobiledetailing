@@ -1,0 +1,13 @@
+{
+  "intent": "complaints",
+  "utterances": [
+    "I’m not happy with the service",
+    "Your tech damaged my car",
+    "I want a refund",
+    "I’m going to dispute the charge",
+    "I’m calling my lawyer",
+    "I feel sick after the mold service",
+    "There is biohazard in the car",
+    "I need to file an insurance claim"
+  ]
+}

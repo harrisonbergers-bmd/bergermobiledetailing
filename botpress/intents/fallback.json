@@ -1,0 +1,12 @@
+{
+  "intent": "fallback",
+  "utterances": [
+    "Hello",
+    "Hi",
+    "Help",
+    "I have a question",
+    "Can you help me",
+    "Not sure",
+    "What"
+  ]
+}

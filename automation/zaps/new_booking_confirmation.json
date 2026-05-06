@@ -1,0 +1,17 @@
+{
+  "name": "new_booking_confirmation",
+  "trigger": "fieldd.job_created",
+  "steps": [
+    {
+      "action": "twilio.send_sms",
+      "template": "booking_confirmation"
+    },
+    {
+      "action": "sendgrid.send_email",
+      "template": "booking_confirmation.html"
+    },
+    {
+      "action": "google_calendar.create_event"
+    }
+  ]
+}

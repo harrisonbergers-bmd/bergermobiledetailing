@@ -1,0 +1,14 @@
+{
+  "intent": "availability",
+  "utterances": [
+    "Are you available today",
+    "What times are open this week",
+    "Do you have availability tomorrow",
+    "What days do you have open",
+    "Can you do Saturday morning",
+    "Can you do Sunday",
+    "What is your next available appointment",
+    "Do you have openings in the afternoon",
+    "Can you fit me in"
+  ]
+}

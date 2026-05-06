@@ -1,0 +1,181 @@
+{
+  "entity": "addons",
+  "values": [
+    {
+      "id": "ceramic_1y_consumer",
+      "name": "1Y Consumer Grade Ceramic Coating",
+      "synonyms": [
+        "1y consumer grade ceramic coating"
+      ]
+    },
+    {
+      "id": "engine_ceramic_coating",
+      "name": "Engine Ceramic Coating",
+      "synonyms": [
+        "engine ceramic coating"
+      ]
+    },
+    {
+      "id": "interior_ceramic_coating",
+      "name": "Interior Ceramic Coating",
+      "synonyms": [
+        "interior ceramic coating"
+      ]
+    },
+    {
+      "id": "wheel_ceramic_coating",
+      "name": "Wheel Ceramic Coating",
+      "synonyms": [
+        "wheel ceramic coating"
+      ]
+    },
+    {
+      "id": "stage2_paint_correction",
+      "name": "Stage 2 Paint Correction",
+      "synonyms": [
+        "stage 2 paint correction"
+      ]
+    },
+    {
+      "id": "stage3_paint_correction",
+      "name": "Stage 3 Paint Correction",
+      "synonyms": [
+        "stage 3 paint correction"
+      ]
+    },
+    {
+      "id": "scratch_removal",
+      "name": "Scratch Removal",
+      "synonyms": [
+        "scratch removal"
+      ]
+    },
+    {
+      "id": "cement_removal",
+      "name": "Cement Removal",
+      "synonyms": [
+        "cement removal"
+      ]
+    },
+    {
+      "id": "iron_decontamination",
+      "name": "Iron Decontamination",
+      "synonyms": [
+        "iron",
+        "iron decon",
+        "iron decontamination",
+        "iron removal"
+      ]
+    },
+    {
+      "id": "paint_overspray_removal",
+      "name": "Paint Overspray Removal",
+      "synonyms": [
+        "paint overspray removal"
+      ]
+    },
+    {
+      "id": "sand_removal",
+      "name": "Sand Removal",
+      "synonyms": [
+        "sand removal"
+      ]
+    },
+    {
+      "id": "tar_removal",
+      "name": "Tar Removal",
+      "synonyms": [
+        "road tar",
+        "tar",
+        "tar removal"
+      ]
+    },
+    {
+      "id": "tree_sap_removal",
+      "name": "Tree Sap Removal",
+      "synonyms": [
+        "sap",
+        "tree sap",
+        "tree sap removal"
+      ]
+    },
+    {
+      "id": "water_spot_removal",
+      "name": "Water Spot Removal",
+      "synonyms": [
+        "water spot removal"
+      ]
+    },
+    {
+      "id": "engine_detailing",
+      "name": "Engine Detailing",
+      "synonyms": [
+        "engine detailing"
+      ]
+    },
+    {
+      "id": "headlight_restoration",
+      "name": "Headlight Restoration",
+      "synonyms": [
+        "foggy headlights",
+        "headlight",
+        "headlight restoration",
+        "headlights",
+        "yellow headlights"
+      ]
+    },
+    {
+      "id": "undercarriage_cleaning",
+      "name": "Undercarriage Cleaning",
+      "synonyms": [
+        "undercarriage cleaning"
+      ]
+    },
+    {
+      "id": "headliner_stain_removal",
+      "name": "Headliner Stain Removal",
+      "synonyms": [
+        "headliner stain removal"
+      ]
+    },
+    {
+      "id": "interior_addon_bundle",
+      "name": "Interior Add-On Bundle",
+      "synonyms": [
+        "interior add-on bundle"
+      ]
+    },
+    {
+      "id": "odor_removal",
+      "name": "Odor Removal",
+      "synonyms": [
+        "odor removal"
+      ]
+    },
+    {
+      "id": "pet_hair_removal",
+      "name": "Pet Hair Removal",
+      "synonyms": [
+        "cat hair",
+        "dog hair",
+        "fur",
+        "pet hair",
+        "pet hair removal"
+      ]
+    },
+    {
+      "id": "stain_removal",
+      "name": "Stain Removal",
+      "synonyms": [
+        "stain removal"
+      ]
+    },
+    {
+      "id": "vomit_removal",
+      "name": "Vomit Removal",
+      "synonyms": [
+        "vomit removal"
+      ]
+    }
+  ]
+}

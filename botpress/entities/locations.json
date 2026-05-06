@@ -1,0 +1,264 @@
+{
+  "entity": "locations",
+  "values": [
+    {
+      "id": "city_dc",
+      "name": "DC",
+      "synonyms": [
+        "dc"
+      ]
+    },
+    {
+      "id": "city_arlington",
+      "name": "Arlington",
+      "synonyms": [
+        "arlington"
+      ]
+    },
+    {
+      "id": "city_alexandria",
+      "name": "Alexandria",
+      "synonyms": [
+        "alexandria"
+      ]
+    },
+    {
+      "id": "city_mclean",
+      "name": "McLean",
+      "synonyms": [
+        "mclean"
+      ]
+    },
+    {
+      "id": "city_fairfax",
+      "name": "Fairfax",
+      "synonyms": [
+        "fairfax"
+      ]
+    },
+    {
+      "id": "city_springfield",
+      "name": "Springfield",
+      "synonyms": [
+        "springfield"
+      ]
+    },
+    {
+      "id": "city_woodbridge",
+      "name": "Woodbridge",
+      "synonyms": [
+        "woodbridge"
+      ]
+    },
+    {
+      "id": "city_manassas",
+      "name": "Manassas",
+      "synonyms": [
+        "manassas"
+      ]
+    },
+    {
+      "id": "city_centreville",
+      "name": "Centreville",
+      "synonyms": [
+        "centreville"
+      ]
+    },
+    {
+      "id": "city_chantilly",
+      "name": "Chantilly",
+      "synonyms": [
+        "chantilly"
+      ]
+    },
+    {
+      "id": "city_reston",
+      "name": "Reston",
+      "synonyms": [
+        "reston"
+      ]
+    },
+    {
+      "id": "city_great_falls",
+      "name": "Great Falls",
+      "synonyms": [
+        "great falls"
+      ]
+    },
+    {
+      "id": "city_bethesda",
+      "name": "Bethesda",
+      "synonyms": [
+        "bethesda"
+      ]
+    },
+    {
+      "id": "city_rockville",
+      "name": "Rockville",
+      "synonyms": [
+        "rockville"
+      ]
+    },
+    {
+      "id": "city_college_park",
+      "name": "College Park",
+      "synonyms": [
+        "college park"
+      ]
+    },
+    {
+      "id": "city_bowie",
+      "name": "Bowie",
+      "synonyms": [
+        "bowie"
+      ]
+    },
+    {
+      "id": "city_waldorf",
+      "name": "Waldorf",
+      "synonyms": [
+        "waldorf"
+      ]
+    },
+    {
+      "id": "city_germantown",
+      "name": "Germantown",
+      "synonyms": [
+        "germantown"
+      ]
+    },
+    {
+      "id": "city_gaithersburg",
+      "name": "Gaithersburg",
+      "synonyms": [
+        "gaithersburg"
+      ]
+    },
+    {
+      "id": "city_olney",
+      "name": "Olney",
+      "synonyms": [
+        "olney"
+      ]
+    },
+    {
+      "id": "city_laurel",
+      "name": "Laurel",
+      "synonyms": [
+        "laurel"
+      ]
+    },
+    {
+      "id": "city_odenton",
+      "name": "Odenton",
+      "synonyms": [
+        "odenton"
+      ]
+    },
+    {
+      "id": "city_crofton",
+      "name": "Crofton",
+      "synonyms": [
+        "crofton"
+      ]
+    },
+    {
+      "id": "city_leonardtown",
+      "name": "Leonardtown",
+      "synonyms": [
+        "leonardtown"
+      ]
+    },
+    {
+      "id": "city_lexington_park",
+      "name": "Lexington Park",
+      "synonyms": [
+        "lexington park"
+      ]
+    },
+    {
+      "id": "city_leesburg",
+      "name": "Leesburg",
+      "synonyms": [
+        "leesburg"
+      ]
+    },
+    {
+      "id": "city_ashburn",
+      "name": "Ashburn",
+      "synonyms": [
+        "ashburn"
+      ]
+    },
+    {
+      "id": "city_gainesville",
+      "name": "Gainesville",
+      "synonyms": [
+        "gainesville"
+      ]
+    },
+    {
+      "id": "city_haymarket",
+      "name": "Haymarket",
+      "synonyms": [
+        "haymarket"
+      ]
+    },
+    {
+      "id": "city_stafford",
+      "name": "Stafford",
+      "synonyms": [
+        "stafford"
+      ]
+    },
+    {
+      "id": "city_fredericksburg",
+      "name": "Fredericksburg",
+      "synonyms": [
+        "fredericksburg"
+      ]
+    },
+    {
+      "id": "region_virginia",
+      "name": "Virginia",
+      "synonyms": [
+        "virginia"
+      ]
+    },
+    {
+      "id": "region_washington_dc",
+      "name": "Washington DC",
+      "synonyms": [
+        "washington dc"
+      ]
+    },
+    {
+      "id": "region_maryland",
+      "name": "Maryland",
+      "synonyms": [
+        "maryland"
+      ]
+    },
+    {
+      "id": "region_dc",
+      "name": "DC",
+      "synonyms": [
+        "dc"
+      ]
+    },
+    {
+      "id": "region_nova",
+      "name": "NoVA",
+      "synonyms": [
+        "nova"
+      ]
+    },
+    {
+      "id": "region_dmv",
+      "name": "DMV",
+      "synonyms": [
+        "dmv"
+      ]
+    }
+  ]
+}

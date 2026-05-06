@@ -1,0 +1,14 @@
+{
+  "name": "job_complete_review_request",
+  "trigger": "fieldd.job_completed",
+  "steps": [
+    {
+      "action": "delay",
+      "minutes": 1440
+    },
+    {
+      "action": "twilio.send_sms",
+      "template": "review_request"
+    }
+  ]
+}

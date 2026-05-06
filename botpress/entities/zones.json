@@ -1,0 +1,29 @@
+{
+  "entity": "zones",
+  "values": [
+    {
+      "id": "blue",
+      "name": "Blue Zone",
+      "synonyms": [
+        "blue zone",
+        "blue"
+      ]
+    },
+    {
+      "id": "green",
+      "name": "Green Zone",
+      "synonyms": [
+        "green zone",
+        "green"
+      ]
+    },
+    {
+      "id": "red",
+      "name": "Red Zone",
+      "synonyms": [
+        "red zone",
+        "red"
+      ]
+    }
+  ]
+}

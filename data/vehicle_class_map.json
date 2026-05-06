@@ -1,0 +1,30 @@
+{
+  "veh_sedan_coupe": [
+    "sedan",
+    "coupe"
+  ],
+  "veh_suv_5_seat": [
+    "suv_5seat"
+  ],
+  "veh_3_row_minivan": [
+    "suv_3row"
+  ],
+  "veh_truck": [
+    "truck"
+  ],
+  "veh_large_van": [
+    "large_van"
+  ],
+  "veh_motorcycle": [
+    "motorcycle"
+  ],
+  "veh_boat": [
+    "boat"
+  ],
+  "veh_rv": [
+    "rv"
+  ],
+  "veh_aircraft": [
+    "aircraft"
+  ]
+}

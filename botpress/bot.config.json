@@ -1,0 +1,16 @@
+{
+  "bot_name": "Berger Mobile Detailing LLC",
+  "language": "en",
+  "timezone": "America/New_York",
+  "channels": [
+    "webchat",
+    "sms",
+    "email",
+    "dm",
+    "gbp",
+    "voice"
+  ],
+  "knowledge_base_ref": "kb_bmd_omni_channel_v1_0",
+  "booking_link": "https://bergermobiledetailingllc.fieldd.co",
+  "core_rules_file": "../docs/SYSTEM_PROMPT.txt"
+}

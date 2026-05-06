@@ -1,0 +1,2105 @@
+{
+  "business": {
+    "name": "Berger Mobile Detailing LLC",
+    "source_url": "https://bergermobiledetailingllc.fieldd.co",
+    "extracted_at_iso": "2026-01-03T00:00:00-05:00",
+    "timezone": "America/New_York",
+    "currency": "USD",
+    "booking_flow_model": "vehicle_first",
+    "travel_time_default_minutes": 30
+  },
+  "vehicle_types": [
+    {
+      "vehicle_type_id": "sedan",
+      "name": "Sedan",
+      "category": "car"
+    },
+    {
+      "vehicle_type_id": "coupe",
+      "name": "Coupe",
+      "category": "car"
+    },
+    {
+      "vehicle_type_id": "suv_5seat",
+      "name": "SUV 5-Seat",
+      "category": "car"
+    },
+    {
+      "vehicle_type_id": "suv_3row",
+      "name": "3-Row SUVs & Minivans",
+      "category": "car"
+    },
+    {
+      "vehicle_type_id": "truck",
+      "name": "Truck",
+      "category": "car"
+    },
+    {
+      "vehicle_type_id": "large_van",
+      "name": "Large Vans",
+      "category": "car"
+    },
+    {
+      "vehicle_type_id": "motorcycle",
+      "name": "Motorcycles",
+      "category": "powersport"
+    },
+    {
+      "vehicle_type_id": "boat",
+      "name": "Boat",
+      "category": "marine"
+    },
+    {
+      "vehicle_type_id": "rv",
+      "name": "RV",
+      "category": "recreational"
+    },
+    {
+      "vehicle_type_id": "aircraft",
+      "name": "Aircraft",
+      "category": "aviation"
+    }
+  ],
+  "service_categories": [
+    {
+      "category_id": "detailing",
+      "name": "Detailing",
+      "order_hint": 1
+    },
+    {
+      "category_id": "ceramic_coating",
+      "name": "Car Ceramic Coating",
+      "order_hint": 2
+    },
+    {
+      "category_id": "paint_correction",
+      "name": "Car Paint Correction",
+      "order_hint": 3
+    },
+    {
+      "category_id": "mold_remediation",
+      "name": "Mold Remediation",
+      "order_hint": 4
+    },
+    {
+      "category_id": "vomit_removal",
+      "name": "Vomit Removal",
+      "order_hint": 5
+    },
+    {
+      "category_id": "motorcycle_services",
+      "name": "Motorcycles",
+      "order_hint": 6
+    },
+    {
+      "category_id": "boat_services",
+      "name": "Boat",
+      "order_hint": 7
+    },
+    {
+      "category_id": "rv_services",
+      "name": "RV",
+      "order_hint": 8
+    },
+    {
+      "category_id": "aircraft_services",
+      "name": "Aircraft",
+      "order_hint": 9
+    }
+  ],
+  "services": [
+    {
+      "service_id": "diamond_interior_detail",
+      "category_id": "detailing",
+      "name": "Diamond Interior Detail",
+      "short_description": "Comprehensive interior deep cleaning with steam, leather conditioning, and full sanitization.",
+      "base_inclusions": [
+        "Vacuum seats, floors, mats & cracks",
+        "Steam cleaning (seats, carpets, mats & interior panels)",
+        "Upholstery cleaning",
+        "Leather cleaning & conditioning",
+        "Door panels & jambs",
+        "Trunk & trunk jamb",
+        "Cup holders, steering wheel & center console",
+        "Dashboard wipe & detailing",
+        "Interior glass (windows, windshield, sunroof)"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "sedan",
+          "price": 199.0,
+          "service_minutes": 120,
+          "travel_minutes": 30,
+          "total_minutes": 150
+        },
+        {
+          "vehicle_type_id": "coupe",
+          "price": 199.0,
+          "service_minutes": 120,
+          "travel_minutes": 30,
+          "total_minutes": 150
+        },
+        {
+          "vehicle_type_id": "suv_5seat",
+          "price": 199.0,
+          "service_minutes": 180,
+          "travel_minutes": 30,
+          "total_minutes": 210
+        },
+        {
+          "vehicle_type_id": "suv_3row",
+          "price": 249.0,
+          "service_minutes": 165,
+          "travel_minutes": 30,
+          "total_minutes": 195
+        },
+        {
+          "vehicle_type_id": "truck",
+          "price": 249.0,
+          "service_minutes": 210,
+          "travel_minutes": 30,
+          "total_minutes": 240
+        },
+        {
+          "vehicle_type_id": "large_van",
+          "price": 299.0,
+          "service_minutes": 90,
+          "travel_minutes": 30,
+          "total_minutes": 120
+        }
+      ],
+      "pricing_note": "Final pricing varies based on condition"
+    },
+    {
+      "service_id": "diamond_exterior_detail",
+      "category_id": "detailing",
+      "name": "Diamond Exterior Detail",
+      "short_description": "Full exterior restoration with foam wash, clay bar, wax, and trim care.",
+      "base_inclusions": [
+        "Snow foam pre-soak",
+        "Precision hand wash",
+        "Protector wax application",
+        "Clay bar treatment",
+        "Plastic trim restoration",
+        "Gas cap cleaning",
+        "Deep rim, tire & wheel-well cleaning",
+        "Glossy tire shine",
+        "Exterior glass cleaning"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "sedan",
+          "price": 179.0,
+          "service_minutes": 60,
+          "travel_minutes": 30,
+          "total_minutes": 90
+        },
+        {
+          "vehicle_type_id": "coupe",
+          "price": 179.0,
+          "service_minutes": 60,
+          "travel_minutes": 30,
+          "total_minutes": 90
+        },
+        {
+          "vehicle_type_id": "suv_5seat",
+          "price": 179.0,
+          "service_minutes": 120,
+          "travel_minutes": 30,
+          "total_minutes": 150
+        },
+        {
+          "vehicle_type_id": "suv_3row",
+          "price": 199.0,
+          "service_minutes": 75,
+          "travel_minutes": 30,
+          "total_minutes": 105
+        },
+        {
+          "vehicle_type_id": "truck",
+          "price": 199.0,
+          "service_minutes": 180,
+          "travel_minutes": 30,
+          "total_minutes": 210
+        },
+        {
+          "vehicle_type_id": "large_van",
+          "price": 299.0,
+          "service_minutes": 90,
+          "travel_minutes": 30,
+          "total_minutes": 120
+        }
+      ],
+      "pricing_note": "Final pricing varies based on condition"
+    },
+    {
+      "service_id": "vip_full_detail",
+      "category_id": "detailing",
+      "name": "VIP Full Detail",
+      "short_description": "Complete interior and exterior detailing package with wax protection.",
+      "base_inclusions": [
+        "Snow-foam pre-soak",
+        "Precision hand wash",
+        "Protector wax application",
+        "Clay bar decontamination",
+        "Plastic trim restoration",
+        "Gas cap cleaning",
+        "Deep rim, tire & wheel-well cleaning",
+        "Glossy tire shine",
+        "Exterior glass (windows, windshield, mirrors, sunroof)",
+        "Full vacuum (seats, floors, mats, cracks)",
+        "Steam cleaning (seats, carpets, mats, panels)",
+        "Upholstery cleaning",
+        "Leather cleaning & conditioning (if applicable)",
+        "Door panels & jambs",
+        "Trunk & trunk jamb",
+        "Cup holders, steering wheel & center console",
+        "Dashboard wipe & detailing",
+        "Interior glass cleaning"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "sedan",
+          "price": 299.0,
+          "service_minutes": 195,
+          "travel_minutes": 30,
+          "total_minutes": 225
+        },
+        {
+          "vehicle_type_id": "coupe",
+          "price": 299.0,
+          "service_minutes": 180,
+          "travel_minutes": 30,
+          "total_minutes": 210
+        },
+        {
+          "vehicle_type_id": "suv_5seat",
+          "price": 299.0,
+          "service_minutes": 210,
+          "travel_minutes": 30,
+          "total_minutes": 240
+        },
+        {
+          "vehicle_type_id": "suv_3row",
+          "price": 399.0,
+          "service_minutes": 240,
+          "travel_minutes": 30,
+          "total_minutes": 270
+        },
+        {
+          "vehicle_type_id": "truck",
+          "price": 399.0,
+          "service_minutes": 210,
+          "travel_minutes": 30,
+          "total_minutes": 240
+        },
+        {
+          "vehicle_type_id": "large_van",
+          "price": 499.0,
+          "service_minutes": 300,
+          "travel_minutes": 30,
+          "total_minutes": 330
+        }
+      ],
+      "pricing_note": "Final pricing varies based on condition"
+    },
+    {
+      "service_id": "presidential_full_detail",
+      "category_id": "detailing",
+      "name": "Presidential Full Detail",
+      "short_description": "Premium full detail with 1-year ceramic coating on interior and exterior surfaces.",
+      "base_inclusions": [
+        "Snow foam pre-soak",
+        "Precision hand wash",
+        "Iron removal",
+        "Clay bar decontamination",
+        "1-Year ceramic coating application",
+        "Plastic trim restoration",
+        "Gas cap cleaning",
+        "Rim, tire & wheel-well deep cleaning",
+        "Undercarriage cleaning",
+        "Glossy tire shine",
+        "Exterior glass cleaning",
+        "Vacuum seats, floors, mats & cracks",
+        "Steam cleaning (seats, carpets, mats & panels)",
+        "Upholstery cleaning",
+        "Leather cleaning & conditioning",
+        "1-Year interior ceramic coating (all surfaces, seats, carpet, leather)",
+        "Door panels & jambs",
+        "Trunk detailing",
+        "Cup holders, steering wheel & center console",
+        "Dashboard cleaning",
+        "Interior glass cleaning"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "sedan",
+          "price": 649.0,
+          "service_minutes": 330,
+          "travel_minutes": 30,
+          "total_minutes": 360
+        },
+        {
+          "vehicle_type_id": "coupe",
+          "price": 649.0,
+          "service_minutes": 330,
+          "travel_minutes": 30,
+          "total_minutes": 360
+        },
+        {
+          "vehicle_type_id": "suv_5seat",
+          "price": 649.0,
+          "service_minutes": 330,
+          "travel_minutes": 30,
+          "total_minutes": 360
+        },
+        {
+          "vehicle_type_id": "suv_3row",
+          "price": 749.0,
+          "service_minutes": 375,
+          "travel_minutes": 30,
+          "total_minutes": 405
+        },
+        {
+          "vehicle_type_id": "truck",
+          "price": 749.0,
+          "service_minutes": 330,
+          "travel_minutes": 30,
+          "total_minutes": 360
+        },
+        {
+          "vehicle_type_id": "large_van",
+          "price": 999.0,
+          "service_minutes": 90,
+          "travel_minutes": 30,
+          "total_minutes": 120
+        }
+      ],
+      "pricing_note": "Final pricing varies based on condition"
+    },
+    {
+      "service_id": "engine_detail",
+      "category_id": "detailing",
+      "name": "Engine Detail",
+      "short_description": "Engine bay degreasing, steam cleaning, and plastic/rubber restoration.",
+      "base_inclusions": [
+        "Degreasing of all accessible engine bay components",
+        "Precision steam cleaning for controlled, safe contaminant removal",
+        "Plastic & rubber restoration for a clean, uniform, factory-new finish"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "sedan",
+          "price": 149.0,
+          "service_minutes": 60,
+          "travel_minutes": 30,
+          "total_minutes": 90
+        },
+        {
+          "vehicle_type_id": "coupe",
+          "price": 149.0,
+          "service_minutes": 60,
+          "travel_minutes": 30,
+          "total_minutes": 90
+        },
+        {
+          "vehicle_type_id": "suv_5seat",
+          "price": 149.0,
+          "service_minutes": 75,
+          "travel_minutes": 30,
+          "total_minutes": 105
+        },
+        {
+          "vehicle_type_id": "suv_3row",
+          "price": 149.0,
+          "service_minutes": 75,
+          "travel_minutes": 30,
+          "total_minutes": 105
+        },
+        {
+          "vehicle_type_id": "truck",
+          "price": 149.0,
+          "service_minutes": 75,
+          "travel_minutes": 30,
+          "total_minutes": 105
+        },
+        {
+          "vehicle_type_id": "large_van",
+          "price": 149.0,
+          "service_minutes": 90,
+          "travel_minutes": 30,
+          "total_minutes": 120
+        }
+      ],
+      "pricing_note": "Final pricing varies based on condition"
+    },
+    {
+      "service_id": "ozone_odor_removal",
+      "category_id": "detailing",
+      "name": "Ozone Odor Removal Treatment",
+      "short_description": "Industrial ozone treatment to eliminate deep interior odors at the molecular level.",
+      "base_inclusions": [
+        "Eliminates deep interior odors",
+        "Industrial ozone odor neutralization",
+        "Targets smoke, food, pet & mildew smells",
+        "Breaks down odor molecules at the source",
+        "Reaches areas standard cleaning can't",
+        "Ideal for stubborn, long-lasting odors"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "sedan",
+          "price": 99.0,
+          "service_minutes": 90,
+          "travel_minutes": 30,
+          "total_minutes": 120
+        },
+        {
+          "vehicle_type_id": "coupe",
+          "price": 99.0,
+          "service_minutes": 90,
+          "travel_minutes": 30,
+          "total_minutes": 120
+        },
+        {
+          "vehicle_type_id": "suv_5seat",
+          "price": 99.0,
+          "service_minutes": 90,
+          "travel_minutes": 30,
+          "total_minutes": 120
+        },
+        {
+          "vehicle_type_id": "suv_3row",
+          "price": 99.0,
+          "service_minutes": 60,
+          "travel_minutes": 30,
+          "total_minutes": 90
+        },
+        {
+          "vehicle_type_id": "truck",
+          "price": 99.0,
+          "service_minutes": 90,
+          "travel_minutes": 30,
+          "total_minutes": 120
+        },
+        {
+          "vehicle_type_id": "large_van",
+          "price": 99.0,
+          "service_minutes": 90,
+          "travel_minutes": 30,
+          "total_minutes": 120
+        }
+      ],
+      "pricing_note": "Final pricing varies based on condition"
+    },
+    {
+      "service_id": "ceramic_1y",
+      "category_id": "ceramic_coating",
+      "name": "1Y Ceramic Coating",
+      "short_description": "Entry-level 1-year ceramic coating with full exterior prep.",
+      "base_inclusions": [
+        "Snow-foam pre-soak",
+        "Precision hand wash",
+        "Iron removal",
+        "Clay bar decontamination",
+        "1-year ceramic coating application",
+        "Plastic trim restoration",
+        "Gas cap cleaning",
+        "Rim, tire & wheel-well deep cleaning",
+        "Glossy tire shine",
+        "Exterior glass cleaning (windows, windshield, sunroof & mirrors)"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "sedan",
+          "price": 399.0,
+          "service_minutes": 135,
+          "travel_minutes": 30,
+          "total_minutes": 165
+        },
+        {
+          "vehicle_type_id": "coupe",
+          "price": 399.0,
+          "service_minutes": 135,
+          "travel_minutes": 30,
+          "total_minutes": 165
+        },
+        {
+          "vehicle_type_id": "suv_5seat",
+          "price": 399.0,
+          "service_minutes": 135,
+          "travel_minutes": 30,
+          "total_minutes": 165
+        },
+        {
+          "vehicle_type_id": "suv_3row",
+          "price": 499.0,
+          "service_minutes": 165,
+          "travel_minutes": 30,
+          "total_minutes": 195
+        },
+        {
+          "vehicle_type_id": "truck",
+          "price": 499.0,
+          "service_minutes": 165,
+          "travel_minutes": 30,
+          "total_minutes": 195
+        },
+        {
+          "vehicle_type_id": "large_van",
+          "price": 599.0,
+          "service_minutes": 240,
+          "travel_minutes": 30,
+          "total_minutes": 270
+        }
+      ],
+      "pricing_note": "Final pricing varies based on condition"
+    },
+    {
+      "service_id": "ceramic_4y",
+      "category_id": "ceramic_coating",
+      "name": "4Y Ceramic Coating",
+      "short_description": "4-year ceramic coating with single-stage paint enhancement polish.",
+      "base_inclusions": [
+        "Certified application",
+        "Snow-foam pre-soak",
+        "Precision hand wash",
+        "Iron removal",
+        "Clay bar decontamination",
+        "Paint decontamination",
+        "Single-stage paint enhancement polish (gloss boost + clarity)",
+        "4-year ceramic coating",
+        "Plastic trim ceramic coated",
+        "Rim faces ceramic coated",
+        "Windshield water-repellent coating",
+        "Exterior glass cleaning",
+        "Glossy tire shine",
+        "Final inspection & post-care instructions"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "sedan",
+          "price": 1199.0,
+          "service_minutes": 300,
+          "travel_minutes": 30,
+          "total_minutes": 330
+        },
+        {
+          "vehicle_type_id": "coupe",
+          "price": 1199.0,
+          "service_minutes": 300,
+          "travel_minutes": 30,
+          "total_minutes": 330
+        },
+        {
+          "vehicle_type_id": "suv_5seat",
+          "price": 1199.0,
+          "service_minutes": 300,
+          "travel_minutes": 30,
+          "total_minutes": 330
+        },
+        {
+          "vehicle_type_id": "suv_3row",
+          "price": 1499.0,
+          "service_minutes": 360,
+          "travel_minutes": 30,
+          "total_minutes": 390
+        },
+        {
+          "vehicle_type_id": "truck",
+          "price": 1499.0,
+          "service_minutes": 360,
+          "travel_minutes": 30,
+          "total_minutes": 390
+        },
+        {
+          "vehicle_type_id": "large_van",
+          "price": 1749.0,
+          "service_minutes": 435,
+          "travel_minutes": 30,
+          "total_minutes": 465
+        }
+      ],
+      "pricing_note": "Final pricing varies based on condition"
+    },
+    {
+      "service_id": "ceramic_7y",
+      "category_id": "ceramic_coating",
+      "name": "7Y Ceramic Coating",
+      "short_description": "7-year ceramic coating with 2-stage paint correction.",
+      "base_inclusions": [
+        "Certified application",
+        "Exceptional hydrophobic performance",
+        "Deep gloss",
+        "Durability",
+        "Snow-foam pre-soak",
+        "Precision hand wash",
+        "Iron removal",
+        "Clay bar decontamination",
+        "Paint decontamination",
+        "2-stage paint correction (Heavy-Cut + Finishing Polish)",
+        "7-year ceramic coating professional application",
+        "Plastic trim ceramic coated",
+        "Rim faces ceramic coated",
+        "Windshield water-repellent coating",
+        "Exterior glass cleaning",
+        "Glossy tire shine",
+        "Final inspection & post-care instructions"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "sedan",
+          "price": 1799.0,
+          "service_minutes": 420,
+          "travel_minutes": 30,
+          "total_minutes": 450
+        },
+        {
+          "vehicle_type_id": "coupe",
+          "price": 1799.0,
+          "service_minutes": 420,
+          "travel_minutes": 30,
+          "total_minutes": 450
+        },
+        {
+          "vehicle_type_id": "suv_5seat",
+          "price": 1799.0,
+          "service_minutes": 420,
+          "travel_minutes": 30,
+          "total_minutes": 450
+        },
+        {
+          "vehicle_type_id": "suv_3row",
+          "price": 1999.0,
+          "service_minutes": 495,
+          "travel_minutes": 30,
+          "total_minutes": 525
+        },
+        {
+          "vehicle_type_id": "truck",
+          "price": 1999.0,
+          "service_minutes": 495,
+          "travel_minutes": 30,
+          "total_minutes": 525
+        },
+        {
+          "vehicle_type_id": "large_van",
+          "price": 2299.0,
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Final pricing varies based on condition"
+    },
+    {
+      "service_id": "ceramic_lifetime",
+      "category_id": "ceramic_coating",
+      "name": "Lifetime Ceramic Coating",
+      "short_description": "Lifetime (10-year) ceramic coating with 3-stage paint correction and full glass coating.",
+      "base_inclusions": [
+        "Certified application",
+        "Engineered for long-term protection",
+        "Extreme gloss",
+        "Showroom-level preservation",
+        "Snow-foam pre-soak",
+        "Safe-Touch hand wash",
+        "Iron removal",
+        "Clay bar decontamination",
+        "Paint decontamination",
+        "3-stage paint correction (Heavy-Cut + Refining Polish + Finishing Polish)",
+        "10-year ceramic coating professional application",
+        "Full rim ceramic coating (faces & barrels)",
+        "Plastic trim ceramic coated",
+        "Full glass ceramic coating (windows, windshield, mirrors & sunroof)",
+        "Glossy tire shine",
+        "Final inspection, documentation & long-term care guide"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "sedan",
+          "price": 2299.0,
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        },
+        {
+          "vehicle_type_id": "coupe",
+          "price": 2299.0,
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        },
+        {
+          "vehicle_type_id": "suv_5seat",
+          "price": 2299.0,
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        },
+        {
+          "vehicle_type_id": "suv_3row",
+          "price": 2499.0,
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        },
+        {
+          "vehicle_type_id": "truck",
+          "price": 2499.0,
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        },
+        {
+          "vehicle_type_id": "large_van",
+          "price": 2999.0,
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Final pricing varies based on condition"
+    },
+    {
+      "service_id": "paint_correction_stage1",
+      "category_id": "paint_correction",
+      "name": "Stage 1 Paint Correction",
+      "short_description": "Single-stage heavy-cut correction with 1-year ceramic coating.",
+      "base_inclusions": [
+        "Precision hand wash",
+        "Snow foam pre-soak",
+        "Clay bar treatment",
+        "Iron decontamination",
+        "Full paint decontamination",
+        "Tires, rims, wheel wells & gas cap detailing",
+        "Glossy tire shine application",
+        "Exterior glass cleaning (windows, windshield, mirrors, sunroof)",
+        "1-stage paint correction",
+        "Heavy-cut compound (removes oxidation, swirls & light scratches)",
+        "Edge polishing for tight curves & complex contours",
+        "1-year ceramic coating (gloss enhancement + hydrophobic protection)"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "sedan",
+          "price": 499.0,
+          "service_minutes": 210,
+          "travel_minutes": 30,
+          "total_minutes": 240
+        },
+        {
+          "vehicle_type_id": "coupe",
+          "price": 499.0,
+          "service_minutes": 210,
+          "travel_minutes": 30,
+          "total_minutes": 240
+        },
+        {
+          "vehicle_type_id": "suv_5seat",
+          "price": 499.0,
+          "service_minutes": 210,
+          "travel_minutes": 30,
+          "total_minutes": 240
+        },
+        {
+          "vehicle_type_id": "suv_3row",
+          "price": 699.0,
+          "service_minutes": 270,
+          "travel_minutes": 30,
+          "total_minutes": 300
+        },
+        {
+          "vehicle_type_id": "truck",
+          "price": 699.0,
+          "service_minutes": 270,
+          "travel_minutes": 30,
+          "total_minutes": 300
+        },
+        {
+          "vehicle_type_id": "large_van",
+          "price": 999.0,
+          "service_minutes": 360,
+          "travel_minutes": 30,
+          "total_minutes": 390
+        }
+      ],
+      "pricing_note": "Final pricing varies based on condition"
+    },
+    {
+      "service_id": "paint_correction_stage2",
+      "category_id": "paint_correction",
+      "name": "Stage 2 Paint Correction",
+      "short_description": "Two-stage correction (heavy-cut + finishing polish) with 1-year ceramic.",
+      "base_inclusions": [
+        "Precision hand wash",
+        "Snow foam pre-soak",
+        "Clay bar treatment",
+        "Iron decontamination",
+        "Full paint decontamination",
+        "Tires, rims, wheel wells & gas cap detailing",
+        "Glossy tire shine application",
+        "Exterior glass cleaning (windows, windshield, mirrors, sunroof)",
+        "2-stage paint correction",
+        "Heavy-cut compound (removes oxidation, etc)",
+        "Finishing polish (enhances clarity & gloss)",
+        "Extended polishing time for deeper imperfections",
+        "Panel-by-panel inspection & targeted refinement",
+        "1-year ceramic coating (enhanced protection, shine & water repellency)"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "sedan",
+          "price": 999.0,
+          "service_minutes": 390,
+          "travel_minutes": 30,
+          "total_minutes": 420
+        },
+        {
+          "vehicle_type_id": "coupe",
+          "price": 999.0,
+          "service_minutes": 390,
+          "travel_minutes": 30,
+          "total_minutes": 420
+        },
+        {
+          "vehicle_type_id": "suv_5seat",
+          "price": 999.0,
+          "service_minutes": 390,
+          "travel_minutes": 30,
+          "total_minutes": 420
+        },
+        {
+          "vehicle_type_id": "suv_3row",
+          "price": 999.0,
+          "service_minutes": 450,
+          "travel_minutes": 30,
+          "total_minutes": 480
+        },
+        {
+          "vehicle_type_id": "truck",
+          "price": 1399.0,
+          "service_minutes": 450,
+          "travel_minutes": 30,
+          "total_minutes": 480
+        },
+        {
+          "vehicle_type_id": "large_van",
+          "price": 1999.0,
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Final pricing varies based on condition"
+    },
+    {
+      "service_id": "paint_correction_stage3",
+      "category_id": "paint_correction",
+      "name": "Stage 3 Paint Correction",
+      "short_description": "Three-stage full correction (heavy-cut + refining + finishing) with 1-year ceramic.",
+      "base_inclusions": [
+        "Precision hand wash",
+        "Snow foam pre-soak",
+        "Clay bar treatment",
+        "Iron decontamination",
+        "Full paint decontamination",
+        "Tires, rims, wheel wells & gas cap detailing",
+        "Glossy tire shine application",
+        "Exterior glass cleaning (windows, windshield, mirrors, sunroof)",
+        "3-stage paint correction",
+        "Heavy-cut compound",
+        "Refining polish",
+        "Finishing polish",
+        "Edge polishing for tight curves & complex contours",
+        "1-year ceramic coating"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "sedan",
+          "price": 1499.0,
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        },
+        {
+          "vehicle_type_id": "coupe",
+          "price": 1499.0,
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        },
+        {
+          "vehicle_type_id": "suv_5seat",
+          "price": 1499.0,
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        },
+        {
+          "vehicle_type_id": "suv_3row",
+          "price": 1999.0,
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        },
+        {
+          "vehicle_type_id": "truck",
+          "price": 1999.0,
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        },
+        {
+          "vehicle_type_id": "large_van",
+          "price": 2999.0,
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Final pricing varies based on condition"
+    },
+    {
+      "service_id": "car_mold_remediation",
+      "category_id": "mold_remediation",
+      "name": "Car Mold Remediation",
+      "short_description": "Complete mold removal with moisture assessment, ozone treatment, and 30-day warranty.",
+      "base_inclusions": [
+        "Moisture intrusion source assessment (identify active leaks/water entry)",
+        "Deep extraction of carpets, upholstery, and padding",
+        "Two ozone treatments (interior & trunk as separate zones)",
+        "HVAC system purification & vent sanitization",
+        "Full interior detailing",
+        "Exterior wash & engine bay cleaning",
+        "Anti-microbial treatment & mold-safe surface neutralization",
+        "Sunroof cleaning & sanitization",
+        "Cabin air filter removal & replacement",
+        "HEPA vacuuming of all interior surfaces",
+        "30-day warranty"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "all_cars",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Final pricing varies based on condition"
+    },
+    {
+      "service_id": "rv_mold_remediation",
+      "category_id": "mold_remediation",
+      "name": "RV Mold Remediation",
+      "short_description": "RV-specific mold removal with dual-zone ozone and full sanitization.",
+      "base_inclusions": [
+        "Moisture intrusion assessment (locating active leaks & water entry points)",
+        "Deep extraction of carpets, upholstery & padding",
+        "Dual-zone ozone treatment (interior + storage compartments if applicable)",
+        "HVAC purification & vent sanitization",
+        "Full interior detailing",
+        "Exterior wash to remove organic contamination points",
+        "Anti-microbial treatment & mold-safe surface neutralization",
+        "Seal, trim & gasket cleaning",
+        "Cabin air filter removal & replacement",
+        "HEPA vacuuming of all interior surface",
+        "30-day warranty"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "rv",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Final pricing varies based on condition"
+    },
+    {
+      "service_id": "boat_mold_remediation",
+      "category_id": "mold_remediation",
+      "name": "Boat Mold Remediation",
+      "short_description": "Marine-specific mold removal with bilge assessment and cabin sanitization.",
+      "base_inclusions": [
+        "Moisture intrusion assessment (bilge, compartments, cabin, deck leaks)",
+        "Deep extraction of cabin upholstery, cushions & interior padding",
+        "Dual-zone ozone treatment (cabin + storage/under-seat compartments)",
+        "Marine HVAC/air handler purification & vent sanitization",
+        "Full cabin interior detailing",
+        "Exterior wash targeting mold-prone moisture zones",
+        "Anti-microbial treatment & marine-safe surface neutralization",
+        "Hatch, porthole & gasket cleaning to address moisture retention",
+        "Cabin air filter removal & replacement (if equipped)",
+        "HEPA vacuuming of all interior cabin surfaces",
+        "30-day warranty"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "boat",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Final pricing varies based on condition"
+    },
+    {
+      "service_id": "aircraft_mold_remediation",
+      "category_id": "mold_remediation",
+      "name": "Aircraft Mold Remediation",
+      "short_description": "Aviation-safe mold removal with ECS purification and cockpit sanitization.",
+      "base_inclusions": [
+        "Moisture intrusion assessment (door seals, window seals, baggage areas)",
+        "Deep extraction of aircraft carpets, seating fabrics & padding",
+        "Dual-zone ozone treatment (cockpit/cabin + baggage compartment)",
+        "Environmental control system (ECS) purification & vent sanitization",
+        "Full interior detailing for cockpit & passenger cabin",
+        "Exterior wash focusing on leak-origin areas",
+        "Anti-microbial treatment & aviation-safe mold neutralization",
+        "Door seal, trim & gasket cleaning",
+        "Cabin air filter removal & replacement",
+        "HEPA vacuuming of all interior surfaces",
+        "30-day warranty"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "aircraft",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Final pricing varies based on condition"
+    },
+    {
+      "service_id": "vomit_removal",
+      "category_id": "vomit_removal",
+      "name": "Vomit Removal",
+      "short_description": "Complete biohazard cleanup with enzyme treatment and ozone odor elimination.",
+      "base_inclusions": [
+        "Complete vomit cleanup across all affected interior areas",
+        "Deep extraction of carpets, seats, mats & fabric surfaces",
+        "High-temperature steam cleaning for sanitation",
+        "Enzyme treatment to break down organic contamination",
+        "Odor-neutralizing treatment for lingering smells",
+        "Ozone treatment for complete odor elimination"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "all",
+          "price": 199.0,
+          "service_minutes": 90,
+          "travel_minutes": 30,
+          "total_minutes": 120
+        }
+      ],
+      "pricing_note": "Final pricing varies based on condition"
+    },
+    {
+      "service_id": "motorcycle_golden_detail",
+      "category_id": "motorcycle_services",
+      "name": "Golden Detail",
+      "short_description": "Motorcycle exterior detail with foam wash, clay, wax, and trim restoration.",
+      "base_inclusions": [
+        "Snow foam and hand wash",
+        "Clay treatment",
+        "Iron removal",
+        "Protector wax",
+        "Plastic trim restoration",
+        "Tire, rim, and caliper cleaning",
+        "Mirror cleaning"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "motorcycle",
+          "price": 199.0,
+          "service_minutes": 75,
+          "travel_minutes": 30,
+          "total_minutes": 105
+        }
+      ],
+      "pricing_note": "Final pricing varies based on condition"
+    },
+    {
+      "service_id": "motorcycle_presidential_detail",
+      "category_id": "motorcycle_services",
+      "name": "Presidential Detail",
+      "short_description": "Premium motorcycle detail with one-step polish and 1-year ceramic coating.",
+      "base_inclusions": [
+        "Snow foam and hand wash",
+        "Iron decontamination",
+        "Clay treatment",
+        "Plastic trim restoration",
+        "One-step polishing",
+        "Chrome polishing",
+        "Tire, rim, and caliper cleaning",
+        "One-year ceramic coating applied to painted surfaces",
+        "Mirror cleaning",
+        "Deep cleaning of all surfaces",
+        "Leather cleaning and conditioning",
+        "Detailed cleaning of controls, buttons, and crevices",
+        "Cup holder and storage compartment cleaning"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "motorcycle",
+          "price": 399.0,
+          "service_minutes": 150,
+          "travel_minutes": 30,
+          "total_minutes": 180
+        }
+      ],
+      "pricing_note": "Final pricing varies based on condition"
+    },
+    {
+      "service_id": "motorcycle_ceramic_4y",
+      "category_id": "motorcycle_services",
+      "name": "4Y Ceramic Coating",
+      "short_description": "4-year motorcycle ceramic coating with one-step polish.",
+      "base_inclusions": [
+        "Snow foam and hand wash",
+        "Iron decontamination",
+        "Clay bar treatment",
+        "Plastic trim restoration",
+        "One-step paint polishing (gloss enhancement and light correction)",
+        "Tire, rim, and caliper cleaning",
+        "Professional-grade four-year ceramic coating",
+        "High-gloss hydrophobic finish",
+        "Maximum UV and environmental protection",
+        "Dirt-repelling barrier",
+        "Mirror cleaning",
+        "Deep interior surface cleaning",
+        "Leather cleaning and conditioning",
+        "Button, crevice, and control panel cleaning",
+        "Cup holder and storage compartment cleaning"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "motorcycle",
+          "price": 999.0,
+          "service_minutes": 300,
+          "travel_minutes": 30,
+          "total_minutes": 330
+        }
+      ],
+      "pricing_note": "Final pricing varies based on condition"
+    },
+    {
+      "service_id": "motorcycle_ceramic_7y",
+      "category_id": "motorcycle_services",
+      "name": "7Y Ceramic Coating",
+      "short_description": "7-year motorcycle ceramic coating with high-bond prep.",
+      "base_inclusions": [
+        "Snow foam & hand wash",
+        "Iron decontamination",
+        "Clay bar treatment",
+        "1-step polish (gloss enhancement + light correction)",
+        "Tire, rim & caliper cleaning",
+        "Plastic trim restoration",
+        "Mirror & windscreen cleaning",
+        "High-bond prep polish",
+        "7-year ceramic coating (UV, heat & weather resistance)",
+        "High-gloss hydrophobic finish",
+        "Dirt-repelling protection for tank, fairings, fenders & metal surfaces",
+        "Saddlebag/luggage interior cleaning (if applicable)",
+        "Leather cleaning & conditioning",
+        "Crevice & control panel cleaning"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "motorcycle",
+          "price": 1249.0,
+          "service_minutes": 420,
+          "travel_minutes": 30,
+          "total_minutes": 450
+        }
+      ],
+      "pricing_note": "Final pricing varies based on condition"
+    },
+    {
+      "service_id": "motorcycle_ceramic_lifetime",
+      "category_id": "motorcycle_services",
+      "name": "Lifetime Ceramic Coating",
+      "short_description": "Permanent motorcycle ceramic coating with 2-step correction.",
+      "base_inclusions": [
+        "Snow foam & hand wash",
+        "Iron decontamination",
+        "Clay bar treatment",
+        "2-step correction (cut + finish)",
+        "Tire, rim & caliper cleaning",
+        "Plastic trim restoration",
+        "Mirror & windscreen cleaning",
+        "Permanent-bond prep finish",
+        "Lifetime ceramic coating (permanent UV + oxidation protection)",
+        "Maximum hydrophobic performance",
+        "Long-term gloss retention for tank, fairings, chrome & exposed metal",
+        "Saddlebag/luggage interior cleaning (if applicable)",
+        "Leather cleaning & conditioning",
+        "Crevice & control panel cleaning"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "motorcycle",
+          "price": 1499.0,
+          "service_minutes": 510,
+          "travel_minutes": 30,
+          "total_minutes": 540
+        }
+      ],
+      "pricing_note": "Final pricing varies based on condition"
+    },
+    {
+      "service_id": "boat_exterior_detail",
+      "category_id": "boat_services",
+      "name": "Exterior Detail",
+      "short_description": "Full marine exterior wash with UV protectant and stainless cleaning.",
+      "base_inclusions": [
+        "Foam cannon pre-soak and high-pressure rinse",
+        "Hand wash of topside, hull, deck, and exterior surfaces",
+        "Salt, scum, algae, bug, and grime removal",
+        "Deep cleaning of hull, bow, anchor well, rub rails, swim platform, storage hatches, and deck vents",
+        "Wheel and trailer tire cleaning",
+        "Exterior glass and mirror polishing",
+        "Vinyl, rubber, and trim treated with UV protectant",
+        "Stainless steel and metal contact points cleaned"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "boat",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 270,
+          "travel_minutes": 30,
+          "total_minutes": 300
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "boat_interior_detail",
+      "category_id": "boat_services",
+      "name": "Interior Detail",
+      "short_description": "Full cabin interior with galley, bathroom, and sleeping area cleaning.",
+      "base_inclusions": [
+        "Vacuuming floors, under-seat areas, compartments, and storage",
+        "Cleaning dashboard, helm, gauges, switches, and control panels",
+        "Cleaning and conditioning leather, vinyl, and all seating surfaces",
+        "High-intensity stain pre-treatment",
+        "Carpet and fabric shampooing",
+        "Sanitizing hard surfaces",
+        "Cleaning glass, mirrors, and marine screens",
+        "Kitchen/galley cleaning (counters, cabinets, prep areas)",
+        "Bathroom cleaning and sanitation (toilet, sink, walls, flooring)",
+        "Sleeping area vacuuming and reset"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "boat",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 270,
+          "travel_minutes": 30,
+          "total_minutes": 300
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "boat_full_detail",
+      "category_id": "boat_services",
+      "name": "Full Detail",
+      "short_description": "Complete boat interior and exterior detailing package.",
+      "base_inclusions": [
+        "Foam cannon pre-soak and high-pressure rinse",
+        "Hand wash of topside, hull, deck, and exterior surfaces",
+        "Salt, scum, algae, bug, and grime removal",
+        "Deep cleaning of hull, bow, anchor well, rub rails, swim platform, storage hatches, and deck vents",
+        "Wheel and trailer tire cleaning",
+        "Exterior glass and mirror polishing",
+        "Vinyl, rubber, and trim treated with UV protectant",
+        "Stainless steel and metal contact points cleaned",
+        "Vacuuming floors, under-seat areas, compartments, and storage",
+        "Cleaning dashboard, helm, gauges, switches, and control panels",
+        "Cleaning and conditioning leather, vinyl, and all seating surfaces",
+        "High-intensity stain pre-treatment",
+        "Carpet and fabric shampooing",
+        "Sanitizing hard surfaces",
+        "Cleaning glass, mirrors, and marine screens",
+        "Kitchen/galley cleaning (counters, cabinets, prep areas)",
+        "Bathroom cleaning and sanitation (toilet, sink, walls, flooring)",
+        "Sleeping area vacuuming and reset"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "boat",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 540,
+          "travel_minutes": 30,
+          "total_minutes": 570
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "boat_paint_correction_stage1",
+      "category_id": "boat_services",
+      "name": "Stage 1 Paint Correction",
+      "short_description": "Marine gelcoat correction with 1-year ceramic coating.",
+      "base_inclusions": [
+        "Full marine hand wash (hull, topside, transom)",
+        "Marine foam pre-soak to loosen buildup",
+        "Complete gelcoat & surface decontamination",
+        "Water spot & mineral removal",
+        "Rub rail, non-skid, swim platform & fuel port cleaning",
+        "Trim & exterior plastics conditioned",
+        "Marine glass & isinglass cleaning",
+        "1-stage gelcoat correction removing oxidation, chalking & light defects",
+        "Heavy-cut marine compound for uniform restoration",
+        "Precision polishing for curves, edges & molded surfaces",
+        "1-year marine ceramic coating for gloss, protection & easy maintenance"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "boat",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 480,
+          "travel_minutes": 30,
+          "total_minutes": 510
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "boat_paint_correction_stage2",
+      "category_id": "boat_services",
+      "name": "Stage 2 Paint Correction",
+      "short_description": "Two-stage marine gelcoat correction with 1-year ceramic.",
+      "base_inclusions": [
+        "Full marine hand wash",
+        "Marine foam pre-soak",
+        "Full gelcoat & surface decontamination",
+        "Water spot & mineral removal",
+        "Rub rail, non-skid, swim platform & exterior details cleaned",
+        "Trim & plastics restored",
+        "Marine glass & isinglass cleaning",
+        "2-stage correction (heavy cut + refinement pass)",
+        "Removes moderate oxidation, chalking & micro-marring",
+        "Refinement polish restoring clarity, gloss & consistency",
+        "1-year marine ceramic coating enhancing gloss & hydrophobic durability"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "boat",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "boat_paint_correction_stage3",
+      "category_id": "boat_services",
+      "name": "Stage 3 Paint Correction",
+      "short_description": "Three-stage marine gelcoat correction with 1-year ceramic.",
+      "base_inclusions": [
+        "Full marine hand wash",
+        "Marine foam pre-soak for heavy buildup",
+        "Complete decontamination of hull & topside",
+        "Water spot & mineral removal",
+        "Trim, plastics & exterior hardware conditioned",
+        "Marine glass & isinglass cleaning",
+        "3-stage correction (heavy cut + refinement + ultra-fine finishing)",
+        "Removes severe oxidation, deep chalking & heavy defects",
+        "Ultra-fine polish achieving max depth, gloss & reflectivity",
+        "1-year marine ceramic coating delivering premium gloss + marine protection"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "boat",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "boat_ceramic_4y",
+      "category_id": "boat_services",
+      "name": "4Y Ceramic Coating",
+      "short_description": "4-year marine ceramic coating with gelcoat prep.",
+      "base_inclusions": [
+        "Full marine hand wash",
+        "Marine foam pre-soak",
+        "Gelcoat decontamination",
+        "Adhesion prep polish for gelcoat or painted surfaces",
+        "Marine glass & isinglass cleaning",
+        "Trim & exterior plastics conditioned",
+        "4-year coating offering UV, oxidation & saltwater defense",
+        "High-gloss hydrophobic shell resisting minerals, salt & marine buildup"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "boat",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "boat_ceramic_7y",
+      "category_id": "boat_services",
+      "name": "7Y Ceramic Coating",
+      "short_description": "7-year marine ceramic coating with extreme UV resistance.",
+      "base_inclusions": [
+        "Full marine hand wash",
+        "Marine foam pre-soak",
+        "Gelcoat decontamination",
+        "High-bond prep polish",
+        "Marine glass & isinglass cleaning",
+        "Trim & plastics conditioned",
+        "7-year coating engineered for extreme UV, salt & environmental resistance",
+        "Maximum hydrophobic performance for cleaner surfaces longer",
+        "Long-term gloss retention & oxidation prevention"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "boat",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "boat_ceramic_lifetime",
+      "category_id": "boat_services",
+      "name": "Lifetime Ceramic Coating",
+      "short_description": "Permanent marine ceramic coating with year-round outdoor protection.",
+      "base_inclusions": [
+        "Full marine hand wash",
+        "Marine foam pre-soak",
+        "Gelcoat decontamination",
+        "Permanent-bond prep polish",
+        "Marine glass & isinglass cleaning",
+        "Trim & plastics conditioned",
+        "Lifetime-rated coating with permanent UV & oxidation armor",
+        "Highest-level defense against chalking, fading & salt exposure",
+        "Long-term gloss stability for boats stored outdoors year-round",
+        "Permanent hydrophobic barrier for easier cleaning & maximum durability"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "boat",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "rv_exterior_detail",
+      "category_id": "rv_services",
+      "name": "Exterior Detail",
+      "short_description": "Full RV exterior wash including roof with 3-month wax sealant.",
+      "base_inclusions": [
+        "Foam cannon pre-rinse",
+        "Full hand wash (roof included)",
+        "Bug, tar, and road film removal",
+        "Three-month protective wax sealant",
+        "Wheel and tire cleaning",
+        "Tire dressing",
+        "Door jamb cleaning",
+        "Exterior rubber seal cleaning",
+        "Exterior glass cleaning",
+        "Plastic and rubber trim restoration",
+        "Deep cleaning of all exterior surfaces"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "rv",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 240,
+          "travel_minutes": 30,
+          "total_minutes": 270
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "rv_interior_detail",
+      "category_id": "rv_services",
+      "name": "Interior Detail",
+      "short_description": "Full RV interior including kitchen, bathroom, and sleeping areas.",
+      "base_inclusions": [
+        "Complete vacuuming of floors, carpets, upholstery, and compartments",
+        "Dashboard, door panel, console, and trim cleaning",
+        "Interior glass cleaning",
+        "Sanitizing of tables, countertops, and hard surfaces",
+        "Leather cleaning and conditioning (if applicable)",
+        "High-intensity stain pre-treatment",
+        "Carpet, mat, and upholstery shampooing",
+        "Deep cleaning of kitchen and food prep areas",
+        "Bathroom sanitation (toilet, sink, walls, flooring)",
+        "Bedroom and sleeping area vacuuming and wipe-down"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "rv",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 270,
+          "travel_minutes": 30,
+          "total_minutes": 300
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "rv_full_detail",
+      "category_id": "rv_services",
+      "name": "Full Detail",
+      "short_description": "Complete RV interior and exterior detailing package.",
+      "base_inclusions": [
+        "Foam cannon pre-rinse",
+        "Full hand wash of entire exterior",
+        "Roof wash included",
+        "Bug, tar, and road film removal",
+        "Deep cleaning of hull-style body panels",
+        "Three-month protective wax sealant applied to exterior surfaces",
+        "Wheel cleaning",
+        "Tire cleaning",
+        "Tire dressing for a dark, glossy finish",
+        "Door jamb cleaning",
+        "Cleaning of all exterior rubber seals",
+        "Exterior glass cleaning (windows and windshield)",
+        "Plastic trim restoration",
+        "Rubber trim restoration",
+        "Deep cleaning of all exterior panels and contact points",
+        "Complete vacuuming of floors",
+        "Carpet vacuuming",
+        "Upholstery vacuuming",
+        "Vacuuming inside compartments and under seating",
+        "Dashboard cleaning",
+        "Door panel cleaning",
+        "Center console cleaning",
+        "Interior trim cleaning",
+        "Interior glass cleaning",
+        "Sanitizing of tables and countertops",
+        "Sanitizing of hard surfaces",
+        "Leather cleaning (if applicable)",
+        "Leather conditioning (if applicable)",
+        "High-intensity stain pre-treatment for carpets and upholstery",
+        "Carpet shampooing",
+        "Floor mat shampooing",
+        "Upholstery shampooing",
+        "Deep cleaning of kitchen area",
+        "Cleaning of food preparation areas",
+        "Cabinet and prep area wipe-down",
+        "Bathroom sanitation",
+        "Bathroom sink cleaning",
+        "Bathroom wall cleaning",
+        "Toilet cleaning",
+        "Bathroom floor cleaning",
+        "Cleaning of bedroom/sleeping area",
+        "Vacuuming of mattress surfaces",
+        "Bedroom wipe-down and reset"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "rv",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 480,
+          "travel_minutes": 30,
+          "total_minutes": 510
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "rv_paint_correction_stage1",
+      "category_id": "rv_services",
+      "name": "Stage 1 Paint Correction",
+      "short_description": "RV single-stage correction with 1-year ceramic coating.",
+      "base_inclusions": [
+        "Full RV hand wash (sides, nose, rear, slides, awnings)",
+        "Foam pre-soak to lift buildup",
+        "Complete decontamination (bugs, sap, minerals, road film)",
+        "Water spot removal",
+        "Trim, seals, plastics & slide hardware cleaned",
+        "Exterior glass & mirror cleaning",
+        "1-stage correction removing oxidation, chalking & light defects",
+        "Heavy-cut compound for uniform improvement",
+        "Precision polishing on edges, seams, decals & tight contours",
+        "1-year ceramic coating for gloss, protection & easier maintenance"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "rv",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "rv_paint_correction_stage2",
+      "category_id": "rv_services",
+      "name": "Stage 2 Paint Correction",
+      "short_description": "RV two-stage correction with 1-year ceramic coating.",
+      "base_inclusions": [
+        "Full RV hand wash",
+        "Foam pre-soak",
+        "Complete exterior decontamination",
+        "Water spot removal",
+        "Trim, seals & plastics restored",
+        "Exterior glass & mirror cleaning",
+        "2-stage correction (heavy cut + refining pass)",
+        "Removes moderate oxidation, chalking & micro-marring",
+        "Refinement polish restoring clarity, gloss & even finish",
+        "1-year ceramic coating for enhanced shine & hydrophobic durability"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "rv",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "rv_paint_correction_stage3",
+      "category_id": "rv_services",
+      "name": "Stage 3 Paint Correction",
+      "short_description": "RV three-stage correction with 1-year ceramic coating.",
+      "base_inclusions": [
+        "Full RV hand wash",
+        "Foam pre-soak for heavy buildup",
+        "Full decontamination of all exterior surfaces",
+        "Water spot removal",
+        "Trim, seals & plastics conditioned",
+        "Exterior glass & mirror cleaning",
+        "3-stage correction (heavy cut + refinement + ultra-fine finish)",
+        "Removes severe oxidation, deep chalking & heavy defects",
+        "Ultra-fine finishing polish delivering maximum gloss & depth",
+        "1-year ceramic coating for premium gloss & weather shielding"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "rv",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "rv_ceramic_4y",
+      "category_id": "rv_services",
+      "name": "4Y Ceramic Coating",
+      "short_description": "4-year RV ceramic coating with full prep.",
+      "base_inclusions": [
+        "Full RV hand wash",
+        "Foam pre-soak",
+        "Full decontamination",
+        "Adhesion prep polish suitable for all RV finishes",
+        "Exterior glass & mirror cleaning",
+        "Trim & plastics conditioning",
+        "4-year ceramic coating with UV, oxidation & weather protection",
+        "High-gloss hydrophobic surface resisting minerals, rain & grime"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "rv",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "rv_ceramic_7y",
+      "category_id": "rv_services",
+      "name": "7Y Ceramic Coating",
+      "short_description": "7-year RV ceramic coating with extreme weather protection.",
+      "base_inclusions": [
+        "Full RV hand wash",
+        "Foam pre-soak",
+        "Full decontamination",
+        "High-bond prep polish",
+        "Exterior glass & mirror cleaning",
+        "Trim & plastics conditioning",
+        "7-year ceramic coating engineered for extreme UV, heat & weather",
+        "Maximum hydrophobic performance",
+        "Long-term gloss retention & advanced oxidation prevention"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "rv",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "rv_ceramic_lifetime",
+      "category_id": "rv_services",
+      "name": "Lifetime Ceramic Coating",
+      "short_description": "Permanent RV ceramic coating for year-round outdoor storage.",
+      "base_inclusions": [
+        "Full RV hand wash",
+        "Foam pre-soak",
+        "Full decontamination",
+        "Permanent-bond prep polish",
+        "Exterior glass & mirror cleaning",
+        "Trim & plastics conditioning",
+        "Lifetime ceramic coating for permanent UV, oxidation & fade protection",
+        "Long-term gloss stability for RVs stored outdoors year-round",
+        "Permanent hydrophobic layer for easier cleaning & long-term durability"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "rv",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "aircraft_exterior_detail",
+      "category_id": "aircraft_services",
+      "name": "Exterior Detail",
+      "short_description": "Full aircraft exterior wash with brightwork polish and tire conditioning.",
+      "base_inclusions": [
+        "Full hand wash of fuselage, wings, undercarriage, tail, and exterior trim",
+        "Removal of bugs, oil buildup, exhaust soot, and carbon residue",
+        "Spot cleaning of wheel wells, landing gear, and access panels",
+        "Paint-safe microfiber drying",
+        "Streak-free exterior window treatment",
+        "Brightwork and metal polish (propellers, trim, exposed metal surfaces)",
+        "Tire cleaning and conditioning",
+        "Conditioning of all exterior plastics and rubbers"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "aircraft",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 240,
+          "travel_minutes": 30,
+          "total_minutes": 270
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "aircraft_interior_detail",
+      "category_id": "aircraft_services",
+      "name": "Interior Detail",
+      "short_description": "Full cockpit and cabin interior with galley and lavatory sanitization.",
+      "base_inclusions": [
+        "Full vacuuming of carpets, seats, under-seat areas, and storage compartments",
+        "Detailed cleaning of cockpit, dashboard, gauges, switches, panels, and controls",
+        "Leather cleaning and conditioning (when applicable)",
+        "Stain pre-treatment for all fabric surfaces",
+        "Shampooing of seats, carpets, and other fabric areas",
+        "Sanitizing of tables, lavatories, galley, cabinets, armrests, and storage bins",
+        "Streak-free interior mirror and glass cleaning",
+        "Complete deodorizing for a fresh, clean cabin environment"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "aircraft",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 180,
+          "travel_minutes": 30,
+          "total_minutes": 210
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "aircraft_full_detail",
+      "category_id": "aircraft_services",
+      "name": "Full Detail",
+      "short_description": "Complete aircraft interior and exterior detailing package.",
+      "base_inclusions": [
+        "Full vacuuming of carpets, seats, under-seat areas, and compartments",
+        "Complete cleaning of cockpit, dashboard, switches, gauges, and instrument panels",
+        "Leather cleaning and conditioning (when applicable)",
+        "Stain pre-treatment",
+        "Shampooing of all fabric and carpeted surfaces",
+        "Sanitizing of galley, tables, cabinets, storage bins, lavatory, and armrests",
+        "Streak-free mirror and interior glass cleaning",
+        "Complete deodorizing for a fresh, clean cabin",
+        "Full hand wash of fuselage, wings, tail, undercarriage, and trim components",
+        "Removal of bugs, carbon buildup, oil, exhaust residue, and environmental deposits",
+        "Spot cleaning of wheel wells and landing gear",
+        "Paint-safe microfiber drying",
+        "Streak-free exterior window cleaning",
+        "Metal and brightwork polishing (propellers, trim, metal accents)",
+        "Conditioning of tires, rubbers, seals, and exterior plastics"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "aircraft",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 480,
+          "travel_minutes": 30,
+          "total_minutes": 510
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "aircraft_paint_correction_stage1",
+      "category_id": "aircraft_services",
+      "name": "Stage 1 Paint Correction",
+      "short_description": "Aviation single-stage correction with 1-year ceramic coating.",
+      "base_inclusions": [
+        "Full aircraft hand wash (fuselage, wings, tail, gear doors)",
+        "Aviation-safe foam pre-soak to loosen buildup",
+        "Complete decontamination (carbon, soot, oil, pollutants, bugs)",
+        "Water spot & mineral removal",
+        "Leading edges, nacelles, landing gear covers & fairings cleaned",
+        "Trim, plastics & exterior hardware conditioned",
+        "Aircraft glass, canopy & polycarbonate cleaning",
+        "1-stage correction removing oxidation, chalking & light defects",
+        "Heavy-cut aviation compound for uniform restoration",
+        "Precision polishing around rivets, seams & aerodynamic contours",
+        "1-year aircraft ceramic coating for gloss, protection & easier maintenance"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "aircraft",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "aircraft_paint_correction_stage2",
+      "category_id": "aircraft_services",
+      "name": "Stage 2 Paint Correction",
+      "short_description": "Aviation two-stage correction with 1-year ceramic coating.",
+      "base_inclusions": [
+        "Full aircraft hand wash",
+        "Aviation-safe foam pre-soak",
+        "Complete exterior decontamination",
+        "Water spot & mineral removal",
+        "Trim, plastics & landing gear components restored",
+        "Aircraft glass & canopy cleaning",
+        "2-stage correction (heavy cut + refinement pass)",
+        "Removes moderate oxidation, chalking & micro-marring",
+        "Refinement polish restoring clarity, gloss & consistency across fuselage & wings",
+        "1-year aircraft ceramic coating enhancing gloss & hydrophobic durability"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "aircraft",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "aircraft_paint_correction_stage3",
+      "category_id": "aircraft_services",
+      "name": "Stage 3 Paint Correction",
+      "short_description": "Aviation three-stage correction with 1-year ceramic coating.",
+      "base_inclusions": [
+        "Full aircraft hand wash",
+        "Foam pre-soak for heavy buildup",
+        "Complete decontamination of fuselage, wings, tail & inlets",
+        "Water spot & mineral removal",
+        "Trim, plastics & exterior hardware conditioned",
+        "Aircraft glass & canopy cleaning",
+        "3-stage correction (heavy cut + refinement + ultra-fine finishing)",
+        "Removes severe oxidation, deep chalking & heavy defects",
+        "Ultra-fine finishing polish achieving maximum depth, gloss & reflectivity",
+        "1-year aircraft ceramic coating delivering premium gloss + environmental protection"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "aircraft",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "aircraft_ceramic_4y",
+      "category_id": "aircraft_services",
+      "name": "4Y Ceramic Coating",
+      "short_description": "4-year aviation ceramic coating with environmental defense.",
+      "base_inclusions": [
+        "Full aircraft hand wash",
+        "Aviation foam pre-soak",
+        "Complete decontamination",
+        "Adhesion prep polish for painted, polished aluminum or gelcoat aircraft surfaces",
+        "Aircraft glass & canopy cleaning",
+        "Trim & exterior plastics conditioned",
+        "4-year coating offering UV, oxidation & environmental defense",
+        "High-gloss hydrophobic shell resisting minerals, pollutants & atmospheric contaminants"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "aircraft",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "aircraft_ceramic_7y",
+      "category_id": "aircraft_services",
+      "name": "7Y Ceramic Coating",
+      "short_description": "7-year aviation ceramic coating with jet fuel and soot resistance.",
+      "base_inclusions": [
+        "Full aircraft hand wash",
+        "Aviation foam pre-soak",
+        "Complete decontamination",
+        "High-bond prep polish",
+        "Aircraft glass & canopy cleaning",
+        "Trim & plastics conditioned",
+        "7-year coating engineered for extreme UV, soot, jet fuel & environmental resistance",
+        "Maximum hydrophobic performance for longer-lasting cleanliness",
+        "Long-term gloss retention & oxidation prevention"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "aircraft",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    },
+    {
+      "service_id": "aircraft_ceramic_lifetime",
+      "category_id": "aircraft_services",
+      "name": "Lifetime Ceramic Coating",
+      "short_description": "Permanent aviation ceramic coating for year-round outdoor protection.",
+      "base_inclusions": [
+        "Full aircraft hand wash",
+        "Aviation foam pre-soak",
+        "Complete decontamination",
+        "Permanent-bond prep polish",
+        "Aircraft glass & canopy cleaning",
+        "Trim & plastics conditioned",
+        "Lifetime-rated coating with permanent UV & oxidation armor",
+        "Highest-level protection against fading, chalking & atmospheric exposure",
+        "Long-term gloss stability for aircraft stored outdoors year-round",
+        "Permanent hydrophobic barrier for easier cleaning & maximum durability"
+      ],
+      "per_vehicle_pricing": [
+        {
+          "vehicle_type_id": "aircraft",
+          "price": null,
+          "price_type": "quote",
+          "service_minutes": 570,
+          "travel_minutes": 30,
+          "total_minutes": 600
+        }
+      ],
+      "pricing_note": "Call For Pricing & Availability: (704) 776-6789"
+    }
+  ],
+  "add_ons": [],
+  "global_policies": [
+    {
+      "policy_id": "pricing_disclaimer",
+      "title": "Pricing Disclaimer",
+      "text": "Final pricing varies based on condition"
+    },
+    {
+      "policy_id": "travel_time",
+      "title": "Travel Time",
+      "text": "30 minutes travel time included in all services"
+    },
+    {
+      "policy_id": "mold_warranty",
+      "title": "Mold Remediation Warranty",
+      "text": "30-day warranty on all mold remediation services"
+    }
+  ],
+  "extraction_qa": {
+    "services_count": 54,
+    "vehicle_types_count": 10,
+    "add_ons_count": 0,
+    "service_categories_count": 9,
+    "fixed_price_services": 42,
+    "quote_required_services": 12,
+    "data_source": "User-provided Fieldd admin export (2026-01-03)"
+  }
+}

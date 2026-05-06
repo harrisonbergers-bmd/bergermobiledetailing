@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do you come to my home or office?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — Berger Mobile Detailing is a mobile service. Share your ZIP code and we’ll confirm service area and travel fee."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you require a deposit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Deposits depend on the service. We’ll confirm deposit requirements during booking."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if it’s freezing outside?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If it’s 32°F or below, exterior services may be rescheduled or adjusted to interior-only depending on the service."
+      }
+    }
+  ]
+}

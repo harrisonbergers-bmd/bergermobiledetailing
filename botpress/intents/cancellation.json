@@ -1,0 +1,11 @@
+{
+  "intent": "cancellation",
+  "utterances": [
+    "I need to cancel my appointment",
+    "Can I reschedule",
+    "Move my appointment",
+    "Change my booking time",
+    "Cancel my detail",
+    "What is your cancellation policy"
+  ]
+}
