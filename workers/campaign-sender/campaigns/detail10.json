@@ -1,0 +1,13 @@
+{
+  "id": "detail10-nov14",
+  "name": "DETAIL10 — 10% off through Sat 11/14",
+  "scheduledAt": "2026-11-07T10:00:00-05:00",
+  "message": "Berger Mobile Detailing: 10% off your next service, ends Sat 11/14 11:59 PM. You're VIP. Code DETAIL10: bergermobiledetailingllc.fieldd.co Reply STOP to opt out",
+  "mms": true,
+  "mediaUrl": "https://raw.githubusercontent.com/harrisonbergers-bmd/bergermobiledetailing/main/marketing/rcs/detail10-logo-hero.jpg",
+  "audience": {
+    "includeTag": "detail10-blast",
+    "excludeTag": "detail10-exclude",
+    "requireTags": ["consent-sms-mkt"]
+  }
+}
